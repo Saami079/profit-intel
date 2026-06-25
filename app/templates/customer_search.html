@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Customer Search Engine</h1>
+        <p>Search any customer and instantly inspect profitability, margin quality, discount behavior, and retention status.</p>
+    </div>
+    <div class="hero-icon">👤</div>
+</div>
+
+<div class="search-wrap">
+
+    <span class="search-icon">🔍</span>
+
+    <input
+        type="text"
+        name="q"
+        placeholder="Search by customer name..."
+        class="search-box"
+        hx-get="/customers/search"
+        hx-trigger="keyup changed delay:300ms"
+        hx-target="#customer-results"
+    >
+
+</div>
+
+<div id="customer-results">
+    {% include 'partials/customer_results.html' %}
+</div>
+
+{% endblock %}

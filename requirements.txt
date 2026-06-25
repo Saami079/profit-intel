@@ -1,0 +1,6 @@
+pandas
+matplotlib
+psycopg2-binary
+flask
+python-dotenv
+gunicorn

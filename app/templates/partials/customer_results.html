@@ -1,0 +1,55 @@
+<table>
+    <tr>
+        <th class="text-left">Name</th>
+        <th class="text-left">Segment</th>
+        <th class="text-left">Region</th>
+        <th class="num">Profit</th>
+        <th class="num">Margin %</th>
+        <th class="num">Discount %</th>
+        <th class="text-left">Retention</th>
+        <th class="text-left">Customer Type</th>
+    </tr>
+
+    {% for customer in customers %}
+    <tr>
+        <td class="text-left">
+            <a href="/customer/{{ customer.customer_id }}" class="customer-link">
+                {{ customer.customer_name }}
+            </a>
+        </td>
+        <td class="text-left">{{ customer.segment_name }}</td>
+        <td class="text-left">{{ customer.region }}</td>
+
+        <td class="num">
+            {% if customer.total_profit > 70000 %}
+                <span class="profit-strong">
+                    {{ customer.total_profit|currency_full }}
+                </span>
+            {% elif customer.total_profit > 40000 %}
+                <span class="profit-mid">
+                    {{ customer.total_profit|currency_full }}
+                </span>
+            {% else %}
+                <span class="profit-low">
+                    {{ customer.total_profit|currency_full }}
+                </span>
+            {% endif %}
+        </td>
+
+        <td class="num">{{ customer.profit_margin_pct|percent }}</td>
+        <td class="num">{{ customer.avg_discount_pct|percent }}</td>
+
+        <td class="text-left">
+            <span class="badge {{ customer.retention_status|status_class }}">
+                {{ customer.retention_status }}
+            </span>
+        </td>
+
+        <td class="text-left">
+            <span class="badge {{ customer.customer_value_type|status_class }}">
+                {{ customer.customer_value_type }}
+            </span>
+        </td>
+    </tr>
+    {% endfor %}
+</table>

@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Executive Intelligence Dashboard</h1>
+        <p>Pricing, profitability, discount behavior, and margin health in one executive view.</p>
+    </div>
+    <div class="hero-icon">📊</div>
+</div>
+
+<div class="card-grid">
+
+    <div class="card">
+        <h3>Total Customers</h3>
+        <p>{{ summary.total_customers|number }}</p>
+        <span class="kpi-trend">+2.4% vs last month</span>
+    </div>
+
+    <div class="card">
+        <h3>Total Revenue</h3>
+        <p>{{ summary.total_revenue|currency }}</p>
+        <span class="kpi-trend">+3.2% vs last month</span>
+    </div>
+
+    <div class="card">
+        <h3>Total Profit</h3>
+        <p>{{ summary.total_profit|currency }}</p>
+        <span class="kpi-trend">+4.8% vs last month</span>
+    </div>
+
+    <div class="card">
+        <h3>Overall Margin</h3>
+        <p>{{ summary.overall_margin_pct|percent }}</p>
+        <span class="kpi-trend">+1.1 pts vs last month</span>
+    </div>
+
+</div>
+
+<div class="insight-bar">
+    <div>
+        <strong>Margin Warning</strong>
+        <span>31%+ discount band drops margin to {{ discount_bands[-1].profit_margin_pct|percent }}.</span>
+    </div>
+
+    <div>
+        <strong>Discount Risk</strong>
+        <span>{{ alerts.high_value_discount_risk|number }} profitable customers show heavy discount dependence.</span>
+    </div>
+
+    <div>
+        <strong>Retention Exposure</strong>
+        <span>{{ alerts.retention_risk_customers|number }} customers require retention attention.</span>
+    </div>
+</div>
+
+<div class="alert-grid">
+
+    <div class="alert-card danger">
+        <span>High Value Discount Risk</span>
+        <strong>{{ alerts.high_value_discount_risk|number }}</strong>
+        <p>Profitable customers showing heavy discount dependence.</p>
+    </div>
+
+    <div class="alert-card warning">
+        <span>Retention Risk Customers</span>
+        <strong>{{ alerts.retention_risk_customers|number }}</strong>
+        <p>Customers likely to weaken future revenue stability.</p>
+    </div>
+
+    <div class="alert-card warning">
+        <span>Discount Dependent Customers</span>
+        <strong>{{ alerts.discount_dependent_customers|number }}</strong>
+        <p>Customers buying mainly under promotional pressure.</p>
+    </div>
+
+    <div class="alert-card danger">
+        <span>Loss Making Customers</span>
+        <strong>{{ alerts.loss_making_customers|number }}</strong>
+        <p>Customers whose buying behavior destroys margin.</p>
+    </div>
+
+</div>
+
+<h2>Discount Band Intelligence</h2>
+
+<table>
+    <tr>
+        <th class="text-left">Band</th>
+        <th class="num">Revenue</th>
+        <th class="num">Profit</th>
+        <th class="num">Margin</th>
+    </tr>
+
+    {% for band in discount_bands %}
+    <tr>
+        <td class="text-left">{{ band.discount_band }}</td>
+        <td class="num">{{ band.total_revenue|currency_full }}</td>
+        <td class="num">{{ band.total_profit|currency_full }}</td>
+        <td class="num">{{ band.profit_margin_pct|percent }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

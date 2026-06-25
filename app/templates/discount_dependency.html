@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Discount Dependency Analyzer</h1>
+        <p>Identify customers whose buying behavior depends heavily on promotional pricing.</p>
+    </div>
+    <div class="hero-icon">🎯</div>
+</div>
+
+<table>
+    <tr>
+        <th class="text-left">Customer</th>
+        <th class="text-left">Segment</th>
+        <th class="num">Total Orders</th>
+        <th class="num">Discounted Orders</th>
+        <th class="num">Discount Share</th>
+        <th class="num">Avg Discount</th>
+        <th class="num">Profit</th>
+        <th class="text-left">Dependency Type</th>
+    </tr>
+
+    {% for customer in customers %}
+    <tr>
+        <td class="text-left">{{ customer.customer_name }}</td>
+        <td class="text-left">{{ customer.segment_name }}</td>
+        <td class="num">{{ customer.total_orders|number }}</td>
+        <td class="num">{{ customer.discounted_orders|number }}</td>
+        <td class="num">{{ customer.discount_order_share_pct|percent }}</td>
+        <td class="num">{{ customer.avg_discount_pct|percent }}</td>
+        <td class="num">{{ customer.total_profit|currency_full }}</td>
+        <td class="text-left">
+            <span class="badge {{ customer.dependency_type|status_class }}">
+                {{ customer.dependency_type }}
+            </span>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

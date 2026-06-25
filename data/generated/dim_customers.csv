@@ -1,0 +1,1201 @@
+customer_id,customer_name,segment_id,region,signup_date,acquisition_channel
+1,Customer_0001,4,South,2022-01-26,Paid Ads
+2,Customer_0002,2,West,2024-01-25,Email Campaign
+3,Customer_0003,1,West,2023-03-09,Organic
+4,Customer_0004,1,Central,2022-08-27,Email Campaign
+5,Customer_0005,1,Central,2022-07-23,Marketplace
+6,Customer_0006,2,South,2023-08-27,Organic
+7,Customer_0007,5,East,2022-06-13,Referral
+8,Customer_0008,2,South,2022-08-09,Organic
+9,Customer_0009,1,South,2022-04-10,Referral
+10,Customer_0010,4,West,2024-04-06,Marketplace
+11,Customer_0011,3,West,2023-01-23,Email Campaign
+12,Customer_0012,2,Central,2023-10-06,Referral
+13,Customer_0013,3,West,2023-12-23,Organic
+14,Customer_0014,4,South,2024-03-02,Organic
+15,Customer_0015,5,West,2024-06-06,Marketplace
+16,Customer_0016,2,South,2023-10-13,Paid Ads
+17,Customer_0017,2,South,2022-08-03,Organic
+18,Customer_0018,4,Central,2022-06-25,Paid Ads
+19,Customer_0019,1,South,2023-01-24,Email Campaign
+20,Customer_0020,2,West,2022-11-29,Paid Ads
+21,Customer_0021,5,South,2024-04-04,Marketplace
+22,Customer_0022,2,Central,2022-08-05,Referral
+23,Customer_0023,2,East,2023-05-27,Marketplace
+24,Customer_0024,1,North,2022-05-23,Email Campaign
+25,Customer_0025,3,Central,2024-02-04,Marketplace
+26,Customer_0026,6,South,2023-02-13,Paid Ads
+27,Customer_0027,6,Central,2022-05-22,Marketplace
+28,Customer_0028,1,West,2022-02-18,Paid Ads
+29,Customer_0029,4,East,2024-03-22,Email Campaign
+30,Customer_0030,1,Central,2023-01-26,Marketplace
+31,Customer_0031,3,West,2023-07-21,Organic
+32,Customer_0032,4,South,2023-07-04,Referral
+33,Customer_0033,1,North,2023-03-22,Marketplace
+34,Customer_0034,1,South,2024-01-10,Email Campaign
+35,Customer_0035,5,West,2023-06-04,Referral
+36,Customer_0036,5,Central,2023-06-04,Paid Ads
+37,Customer_0037,1,North,2024-02-20,Email Campaign
+38,Customer_0038,6,West,2023-06-28,Email Campaign
+39,Customer_0039,2,West,2022-01-20,Referral
+40,Customer_0040,5,South,2024-05-01,Paid Ads
+41,Customer_0041,1,Central,2024-06-18,Organic
+42,Customer_0042,1,West,2023-05-13,Email Campaign
+43,Customer_0043,5,East,2022-05-12,Email Campaign
+44,Customer_0044,1,Central,2023-06-25,Marketplace
+45,Customer_0045,6,North,2023-07-07,Referral
+46,Customer_0046,2,South,2023-11-19,Marketplace
+47,Customer_0047,6,West,2023-04-08,Paid Ads
+48,Customer_0048,2,West,2022-12-13,Email Campaign
+49,Customer_0049,3,North,2023-08-26,Organic
+50,Customer_0050,1,West,2023-10-09,Paid Ads
+51,Customer_0051,1,South,2022-02-02,Organic
+52,Customer_0052,3,East,2022-10-13,Paid Ads
+53,Customer_0053,3,Central,2024-01-11,Email Campaign
+54,Customer_0054,3,East,2024-03-14,Marketplace
+55,Customer_0055,2,East,2022-04-10,Referral
+56,Customer_0056,3,West,2023-04-24,Organic
+57,Customer_0057,1,South,2024-01-16,Organic
+58,Customer_0058,2,Central,2022-07-14,Marketplace
+59,Customer_0059,1,South,2022-07-07,Marketplace
+60,Customer_0060,2,East,2022-03-19,Email Campaign
+61,Customer_0061,1,Central,2023-10-30,Organic
+62,Customer_0062,6,North,2024-02-11,Paid Ads
+63,Customer_0063,2,North,2023-05-08,Marketplace
+64,Customer_0064,6,East,2022-06-18,Organic
+65,Customer_0065,6,East,2022-09-29,Referral
+66,Customer_0066,3,Central,2024-01-19,Marketplace
+67,Customer_0067,1,North,2022-10-31,Organic
+68,Customer_0068,3,West,2023-07-10,Referral
+69,Customer_0069,1,East,2023-08-22,Email Campaign
+70,Customer_0070,6,North,2023-06-28,Organic
+71,Customer_0071,6,North,2022-03-24,Organic
+72,Customer_0072,3,North,2023-11-23,Marketplace
+73,Customer_0073,1,North,2023-08-07,Email Campaign
+74,Customer_0074,3,West,2023-09-27,Marketplace
+75,Customer_0075,4,Central,2023-08-02,Referral
+76,Customer_0076,6,South,2022-07-29,Paid Ads
+77,Customer_0077,2,South,2022-05-15,Marketplace
+78,Customer_0078,2,West,2024-02-09,Organic
+79,Customer_0079,3,West,2023-07-31,Organic
+80,Customer_0080,3,South,2023-06-03,Paid Ads
+81,Customer_0081,6,North,2022-03-12,Referral
+82,Customer_0082,2,Central,2023-03-25,Referral
+83,Customer_0083,4,Central,2024-04-06,Organic
+84,Customer_0084,4,South,2023-07-22,Organic
+85,Customer_0085,6,South,2022-05-18,Organic
+86,Customer_0086,6,Central,2024-01-31,Paid Ads
+87,Customer_0087,2,North,2023-09-12,Referral
+88,Customer_0088,2,South,2023-10-12,Email Campaign
+89,Customer_0089,3,West,2024-05-16,Organic
+90,Customer_0090,4,South,2024-04-29,Organic
+91,Customer_0091,1,North,2024-02-29,Referral
+92,Customer_0092,1,Central,2023-03-29,Marketplace
+93,Customer_0093,3,West,2022-04-25,Paid Ads
+94,Customer_0094,3,South,2024-05-04,Email Campaign
+95,Customer_0095,3,North,2023-03-17,Organic
+96,Customer_0096,2,West,2024-03-26,Referral
+97,Customer_0097,2,West,2022-09-13,Referral
+98,Customer_0098,5,East,2024-06-14,Email Campaign
+99,Customer_0099,5,North,2022-08-31,Paid Ads
+100,Customer_0100,6,North,2022-01-26,Referral
+101,Customer_0101,5,North,2023-02-26,Referral
+102,Customer_0102,1,West,2023-12-20,Marketplace
+103,Customer_0103,5,East,2024-05-29,Paid Ads
+104,Customer_0104,2,South,2023-04-17,Referral
+105,Customer_0105,5,North,2024-06-11,Paid Ads
+106,Customer_0106,1,East,2022-07-17,Referral
+107,Customer_0107,2,South,2022-03-13,Referral
+108,Customer_0108,4,Central,2023-02-14,Referral
+109,Customer_0109,6,South,2022-04-29,Paid Ads
+110,Customer_0110,3,West,2022-09-29,Organic
+111,Customer_0111,3,South,2022-12-20,Marketplace
+112,Customer_0112,4,West,2023-06-08,Marketplace
+113,Customer_0113,6,South,2022-07-14,Organic
+114,Customer_0114,4,Central,2022-01-02,Email Campaign
+115,Customer_0115,4,North,2024-01-30,Referral
+116,Customer_0116,3,South,2023-11-12,Email Campaign
+117,Customer_0117,2,West,2024-05-18,Referral
+118,Customer_0118,3,East,2023-11-14,Referral
+119,Customer_0119,2,Central,2022-10-30,Paid Ads
+120,Customer_0120,2,East,2023-11-12,Paid Ads
+121,Customer_0121,4,East,2022-11-05,Email Campaign
+122,Customer_0122,5,South,2022-11-08,Paid Ads
+123,Customer_0123,3,Central,2023-08-17,Referral
+124,Customer_0124,3,North,2023-03-29,Email Campaign
+125,Customer_0125,3,North,2024-03-26,Organic
+126,Customer_0126,2,Central,2023-11-11,Referral
+127,Customer_0127,1,North,2024-02-09,Referral
+128,Customer_0128,2,North,2022-07-23,Organic
+129,Customer_0129,1,Central,2023-05-02,Organic
+130,Customer_0130,3,Central,2023-10-07,Paid Ads
+131,Customer_0131,4,East,2023-01-29,Marketplace
+132,Customer_0132,2,West,2023-11-03,Organic
+133,Customer_0133,5,North,2022-08-13,Email Campaign
+134,Customer_0134,3,North,2023-07-25,Organic
+135,Customer_0135,3,East,2024-03-31,Email Campaign
+136,Customer_0136,6,South,2023-09-02,Marketplace
+137,Customer_0137,4,Central,2024-01-07,Marketplace
+138,Customer_0138,5,East,2023-07-16,Paid Ads
+139,Customer_0139,5,East,2023-05-02,Referral
+140,Customer_0140,5,South,2024-05-10,Email Campaign
+141,Customer_0141,3,South,2022-09-02,Marketplace
+142,Customer_0142,1,North,2022-10-20,Referral
+143,Customer_0143,2,West,2023-07-08,Paid Ads
+144,Customer_0144,1,North,2023-01-28,Paid Ads
+145,Customer_0145,1,South,2023-02-22,Email Campaign
+146,Customer_0146,3,North,2022-03-05,Marketplace
+147,Customer_0147,2,Central,2024-02-28,Organic
+148,Customer_0148,5,Central,2024-02-23,Marketplace
+149,Customer_0149,3,South,2022-12-27,Marketplace
+150,Customer_0150,5,East,2024-05-05,Email Campaign
+151,Customer_0151,5,Central,2023-07-14,Paid Ads
+152,Customer_0152,3,East,2022-10-07,Marketplace
+153,Customer_0153,1,East,2022-12-11,Paid Ads
+154,Customer_0154,5,Central,2022-05-11,Email Campaign
+155,Customer_0155,1,Central,2023-02-08,Email Campaign
+156,Customer_0156,4,East,2022-03-27,Paid Ads
+157,Customer_0157,5,West,2022-07-06,Referral
+158,Customer_0158,2,East,2022-08-05,Referral
+159,Customer_0159,2,East,2024-06-19,Referral
+160,Customer_0160,5,East,2024-05-01,Referral
+161,Customer_0161,5,West,2023-04-27,Email Campaign
+162,Customer_0162,1,North,2022-12-25,Organic
+163,Customer_0163,5,West,2023-10-30,Organic
+164,Customer_0164,6,West,2022-07-24,Email Campaign
+165,Customer_0165,1,East,2022-05-10,Organic
+166,Customer_0166,3,East,2022-08-12,Referral
+167,Customer_0167,5,Central,2022-06-21,Email Campaign
+168,Customer_0168,6,West,2024-01-06,Paid Ads
+169,Customer_0169,6,Central,2022-04-21,Organic
+170,Customer_0170,6,East,2023-08-13,Marketplace
+171,Customer_0171,6,West,2022-07-23,Email Campaign
+172,Customer_0172,4,North,2023-10-05,Organic
+173,Customer_0173,4,Central,2022-11-05,Organic
+174,Customer_0174,5,West,2023-08-03,Referral
+175,Customer_0175,3,South,2023-11-09,Organic
+176,Customer_0176,3,West,2022-12-16,Marketplace
+177,Customer_0177,5,East,2022-04-19,Referral
+178,Customer_0178,4,East,2024-04-28,Paid Ads
+179,Customer_0179,3,Central,2024-01-22,Referral
+180,Customer_0180,4,East,2023-07-06,Marketplace
+181,Customer_0181,3,Central,2024-01-19,Referral
+182,Customer_0182,2,West,2022-09-09,Referral
+183,Customer_0183,6,East,2022-09-07,Email Campaign
+184,Customer_0184,4,South,2023-01-24,Organic
+185,Customer_0185,3,North,2022-11-29,Marketplace
+186,Customer_0186,2,South,2024-03-27,Referral
+187,Customer_0187,2,South,2023-09-03,Email Campaign
+188,Customer_0188,1,West,2022-07-15,Paid Ads
+189,Customer_0189,5,Central,2023-05-16,Paid Ads
+190,Customer_0190,4,East,2023-10-24,Marketplace
+191,Customer_0191,5,South,2022-04-06,Paid Ads
+192,Customer_0192,2,South,2022-09-07,Email Campaign
+193,Customer_0193,2,Central,2023-07-21,Referral
+194,Customer_0194,3,Central,2024-02-03,Referral
+195,Customer_0195,2,South,2023-04-10,Referral
+196,Customer_0196,2,North,2022-05-04,Referral
+197,Customer_0197,1,North,2023-07-03,Paid Ads
+198,Customer_0198,2,South,2023-05-11,Email Campaign
+199,Customer_0199,6,Central,2023-06-22,Referral
+200,Customer_0200,6,North,2024-05-02,Referral
+201,Customer_0201,2,South,2022-07-03,Organic
+202,Customer_0202,4,South,2022-05-10,Organic
+203,Customer_0203,6,South,2023-07-21,Paid Ads
+204,Customer_0204,4,East,2024-02-10,Organic
+205,Customer_0205,5,South,2023-08-11,Marketplace
+206,Customer_0206,3,North,2022-12-15,Organic
+207,Customer_0207,2,East,2024-06-01,Organic
+208,Customer_0208,5,East,2023-02-15,Organic
+209,Customer_0209,3,West,2023-12-04,Paid Ads
+210,Customer_0210,1,South,2023-07-31,Organic
+211,Customer_0211,6,Central,2022-05-02,Marketplace
+212,Customer_0212,4,Central,2024-03-20,Paid Ads
+213,Customer_0213,5,East,2023-01-25,Marketplace
+214,Customer_0214,2,East,2023-08-26,Referral
+215,Customer_0215,3,Central,2022-03-03,Organic
+216,Customer_0216,6,North,2022-08-01,Referral
+217,Customer_0217,4,North,2022-06-10,Paid Ads
+218,Customer_0218,3,West,2022-06-10,Marketplace
+219,Customer_0219,3,East,2023-09-01,Referral
+220,Customer_0220,1,South,2022-10-23,Marketplace
+221,Customer_0221,1,South,2022-08-28,Email Campaign
+222,Customer_0222,4,East,2022-07-22,Organic
+223,Customer_0223,3,North,2023-10-26,Referral
+224,Customer_0224,5,West,2022-03-15,Paid Ads
+225,Customer_0225,5,Central,2023-09-02,Referral
+226,Customer_0226,3,South,2023-04-25,Marketplace
+227,Customer_0227,6,Central,2023-05-28,Marketplace
+228,Customer_0228,3,West,2023-09-05,Marketplace
+229,Customer_0229,5,South,2023-09-11,Organic
+230,Customer_0230,1,Central,2023-11-22,Email Campaign
+231,Customer_0231,6,South,2024-02-23,Email Campaign
+232,Customer_0232,1,North,2024-02-14,Marketplace
+233,Customer_0233,3,South,2023-03-29,Paid Ads
+234,Customer_0234,6,East,2023-03-23,Organic
+235,Customer_0235,3,South,2023-02-23,Referral
+236,Customer_0236,4,North,2024-05-28,Referral
+237,Customer_0237,2,South,2023-05-23,Marketplace
+238,Customer_0238,5,West,2023-07-18,Marketplace
+239,Customer_0239,1,South,2022-09-16,Organic
+240,Customer_0240,6,Central,2023-02-18,Organic
+241,Customer_0241,4,East,2023-07-10,Marketplace
+242,Customer_0242,1,South,2023-06-15,Email Campaign
+243,Customer_0243,5,East,2023-10-03,Organic
+244,Customer_0244,2,North,2023-07-17,Referral
+245,Customer_0245,3,East,2023-12-17,Organic
+246,Customer_0246,1,Central,2023-10-08,Paid Ads
+247,Customer_0247,4,Central,2022-11-15,Organic
+248,Customer_0248,3,North,2022-04-06,Organic
+249,Customer_0249,3,North,2022-05-01,Marketplace
+250,Customer_0250,6,Central,2022-10-26,Referral
+251,Customer_0251,2,East,2023-05-10,Paid Ads
+252,Customer_0252,3,East,2022-05-29,Paid Ads
+253,Customer_0253,6,North,2023-06-05,Organic
+254,Customer_0254,2,East,2024-03-19,Referral
+255,Customer_0255,6,South,2023-06-04,Organic
+256,Customer_0256,2,Central,2022-11-02,Email Campaign
+257,Customer_0257,6,North,2023-05-17,Marketplace
+258,Customer_0258,3,South,2022-12-20,Email Campaign
+259,Customer_0259,5,East,2023-01-22,Referral
+260,Customer_0260,5,North,2023-12-16,Email Campaign
+261,Customer_0261,2,East,2024-05-26,Organic
+262,Customer_0262,2,East,2023-04-30,Marketplace
+263,Customer_0263,6,North,2024-03-22,Marketplace
+264,Customer_0264,6,Central,2022-05-10,Email Campaign
+265,Customer_0265,2,East,2022-04-13,Organic
+266,Customer_0266,3,West,2023-04-13,Paid Ads
+267,Customer_0267,2,North,2023-11-02,Organic
+268,Customer_0268,3,South,2022-09-29,Email Campaign
+269,Customer_0269,4,West,2023-10-28,Referral
+270,Customer_0270,5,Central,2024-05-29,Marketplace
+271,Customer_0271,6,East,2023-10-04,Email Campaign
+272,Customer_0272,1,North,2022-03-12,Referral
+273,Customer_0273,6,West,2024-02-04,Marketplace
+274,Customer_0274,6,West,2024-02-18,Marketplace
+275,Customer_0275,1,West,2022-11-03,Organic
+276,Customer_0276,2,South,2022-02-27,Referral
+277,Customer_0277,2,North,2022-05-30,Email Campaign
+278,Customer_0278,2,North,2023-11-30,Paid Ads
+279,Customer_0279,1,East,2023-09-17,Email Campaign
+280,Customer_0280,4,Central,2023-05-25,Paid Ads
+281,Customer_0281,2,South,2023-10-16,Marketplace
+282,Customer_0282,2,East,2022-01-10,Referral
+283,Customer_0283,4,West,2022-06-11,Marketplace
+284,Customer_0284,6,South,2023-08-25,Marketplace
+285,Customer_0285,4,South,2023-04-13,Paid Ads
+286,Customer_0286,6,East,2024-05-23,Organic
+287,Customer_0287,2,South,2023-08-09,Email Campaign
+288,Customer_0288,2,South,2023-12-18,Organic
+289,Customer_0289,6,East,2023-11-06,Referral
+290,Customer_0290,1,West,2024-06-04,Email Campaign
+291,Customer_0291,5,South,2024-05-02,Paid Ads
+292,Customer_0292,4,North,2022-12-27,Paid Ads
+293,Customer_0293,4,North,2023-11-26,Organic
+294,Customer_0294,6,West,2023-10-24,Referral
+295,Customer_0295,5,Central,2022-02-04,Referral
+296,Customer_0296,5,South,2022-04-03,Referral
+297,Customer_0297,5,North,2022-06-29,Paid Ads
+298,Customer_0298,5,South,2024-06-16,Email Campaign
+299,Customer_0299,3,North,2022-10-07,Referral
+300,Customer_0300,6,South,2023-05-09,Referral
+301,Customer_0301,5,West,2023-04-25,Paid Ads
+302,Customer_0302,5,East,2022-08-20,Email Campaign
+303,Customer_0303,2,East,2024-03-20,Organic
+304,Customer_0304,2,East,2022-05-07,Referral
+305,Customer_0305,4,South,2023-11-20,Email Campaign
+306,Customer_0306,2,South,2023-10-16,Organic
+307,Customer_0307,4,West,2023-04-28,Email Campaign
+308,Customer_0308,6,South,2023-07-29,Email Campaign
+309,Customer_0309,2,East,2022-03-06,Referral
+310,Customer_0310,4,North,2022-04-30,Organic
+311,Customer_0311,6,East,2022-11-08,Organic
+312,Customer_0312,1,North,2023-07-05,Marketplace
+313,Customer_0313,3,Central,2023-11-18,Marketplace
+314,Customer_0314,3,North,2024-01-15,Marketplace
+315,Customer_0315,4,East,2024-05-03,Email Campaign
+316,Customer_0316,2,West,2022-10-14,Referral
+317,Customer_0317,2,North,2023-04-01,Referral
+318,Customer_0318,1,South,2023-12-04,Email Campaign
+319,Customer_0319,6,South,2023-10-23,Organic
+320,Customer_0320,2,West,2022-07-14,Marketplace
+321,Customer_0321,1,Central,2022-08-06,Organic
+322,Customer_0322,1,North,2022-12-08,Paid Ads
+323,Customer_0323,5,West,2022-07-30,Email Campaign
+324,Customer_0324,2,North,2022-08-10,Referral
+325,Customer_0325,5,Central,2024-03-18,Organic
+326,Customer_0326,2,North,2022-05-29,Email Campaign
+327,Customer_0327,2,West,2022-06-28,Organic
+328,Customer_0328,1,North,2023-01-02,Email Campaign
+329,Customer_0329,2,South,2022-06-28,Organic
+330,Customer_0330,1,Central,2023-03-08,Organic
+331,Customer_0331,5,East,2023-05-03,Referral
+332,Customer_0332,3,East,2022-04-22,Email Campaign
+333,Customer_0333,2,West,2023-09-22,Email Campaign
+334,Customer_0334,2,West,2023-10-21,Organic
+335,Customer_0335,6,East,2024-05-17,Marketplace
+336,Customer_0336,4,East,2023-05-18,Organic
+337,Customer_0337,6,Central,2022-11-26,Paid Ads
+338,Customer_0338,1,Central,2022-10-09,Email Campaign
+339,Customer_0339,3,East,2022-11-29,Email Campaign
+340,Customer_0340,3,Central,2023-04-10,Email Campaign
+341,Customer_0341,3,West,2024-03-23,Email Campaign
+342,Customer_0342,5,East,2022-08-09,Marketplace
+343,Customer_0343,6,South,2023-02-28,Marketplace
+344,Customer_0344,2,West,2024-01-18,Referral
+345,Customer_0345,3,South,2023-11-13,Referral
+346,Customer_0346,6,East,2023-12-05,Organic
+347,Customer_0347,1,West,2022-03-29,Marketplace
+348,Customer_0348,1,South,2024-01-27,Paid Ads
+349,Customer_0349,3,Central,2023-08-24,Email Campaign
+350,Customer_0350,2,East,2022-05-06,Referral
+351,Customer_0351,5,East,2024-02-08,Organic
+352,Customer_0352,6,South,2023-09-07,Referral
+353,Customer_0353,1,North,2023-06-04,Paid Ads
+354,Customer_0354,4,West,2022-08-18,Referral
+355,Customer_0355,5,West,2023-01-12,Referral
+356,Customer_0356,3,East,2024-04-06,Email Campaign
+357,Customer_0357,6,Central,2024-04-18,Email Campaign
+358,Customer_0358,4,West,2023-07-25,Email Campaign
+359,Customer_0359,6,South,2024-04-29,Organic
+360,Customer_0360,2,South,2023-12-21,Referral
+361,Customer_0361,2,North,2022-07-05,Email Campaign
+362,Customer_0362,4,North,2022-03-13,Organic
+363,Customer_0363,1,North,2023-06-28,Marketplace
+364,Customer_0364,2,North,2022-12-16,Referral
+365,Customer_0365,2,Central,2022-11-29,Email Campaign
+366,Customer_0366,1,North,2022-02-23,Paid Ads
+367,Customer_0367,5,West,2022-02-20,Referral
+368,Customer_0368,3,East,2023-03-11,Email Campaign
+369,Customer_0369,3,North,2022-10-07,Email Campaign
+370,Customer_0370,1,West,2023-03-17,Referral
+371,Customer_0371,4,East,2023-08-31,Email Campaign
+372,Customer_0372,4,North,2022-02-16,Marketplace
+373,Customer_0373,6,West,2022-02-26,Paid Ads
+374,Customer_0374,2,North,2022-08-05,Referral
+375,Customer_0375,2,West,2022-05-03,Marketplace
+376,Customer_0376,5,North,2022-06-29,Marketplace
+377,Customer_0377,3,Central,2022-08-24,Email Campaign
+378,Customer_0378,5,South,2024-04-05,Organic
+379,Customer_0379,2,West,2024-01-30,Marketplace
+380,Customer_0380,1,South,2022-03-21,Email Campaign
+381,Customer_0381,3,East,2023-02-19,Referral
+382,Customer_0382,1,South,2022-01-22,Paid Ads
+383,Customer_0383,5,East,2023-09-25,Referral
+384,Customer_0384,1,West,2024-05-14,Paid Ads
+385,Customer_0385,3,Central,2023-02-15,Organic
+386,Customer_0386,2,South,2022-11-14,Paid Ads
+387,Customer_0387,2,West,2022-06-22,Email Campaign
+388,Customer_0388,4,Central,2023-06-28,Paid Ads
+389,Customer_0389,6,South,2022-12-24,Paid Ads
+390,Customer_0390,2,South,2022-05-30,Paid Ads
+391,Customer_0391,1,West,2022-06-06,Paid Ads
+392,Customer_0392,6,East,2023-10-06,Marketplace
+393,Customer_0393,5,Central,2024-02-18,Marketplace
+394,Customer_0394,4,Central,2023-08-02,Referral
+395,Customer_0395,5,South,2023-10-05,Paid Ads
+396,Customer_0396,3,East,2023-04-26,Referral
+397,Customer_0397,5,West,2023-08-29,Referral
+398,Customer_0398,3,East,2022-11-14,Marketplace
+399,Customer_0399,1,South,2023-01-13,Organic
+400,Customer_0400,4,West,2024-05-25,Email Campaign
+401,Customer_0401,3,East,2023-01-29,Email Campaign
+402,Customer_0402,3,West,2024-03-21,Marketplace
+403,Customer_0403,6,North,2023-08-09,Referral
+404,Customer_0404,4,North,2023-05-29,Organic
+405,Customer_0405,3,South,2024-04-10,Organic
+406,Customer_0406,3,West,2022-06-26,Paid Ads
+407,Customer_0407,4,Central,2023-03-26,Email Campaign
+408,Customer_0408,4,South,2023-01-08,Referral
+409,Customer_0409,2,South,2024-03-04,Email Campaign
+410,Customer_0410,1,South,2023-10-09,Organic
+411,Customer_0411,2,East,2023-07-26,Referral
+412,Customer_0412,2,Central,2024-05-22,Paid Ads
+413,Customer_0413,2,North,2023-08-20,Referral
+414,Customer_0414,2,East,2023-11-03,Paid Ads
+415,Customer_0415,3,South,2022-03-28,Email Campaign
+416,Customer_0416,2,South,2024-03-21,Paid Ads
+417,Customer_0417,4,Central,2024-04-28,Organic
+418,Customer_0418,4,Central,2023-03-10,Referral
+419,Customer_0419,1,North,2022-11-13,Paid Ads
+420,Customer_0420,2,East,2024-02-24,Paid Ads
+421,Customer_0421,2,North,2022-05-21,Organic
+422,Customer_0422,2,West,2024-03-18,Email Campaign
+423,Customer_0423,5,Central,2024-05-05,Organic
+424,Customer_0424,4,Central,2024-06-16,Paid Ads
+425,Customer_0425,3,North,2022-06-07,Paid Ads
+426,Customer_0426,5,Central,2024-02-29,Paid Ads
+427,Customer_0427,5,East,2022-02-14,Referral
+428,Customer_0428,4,East,2022-09-01,Email Campaign
+429,Customer_0429,2,East,2024-02-06,Paid Ads
+430,Customer_0430,3,East,2022-11-13,Paid Ads
+431,Customer_0431,2,East,2023-08-08,Marketplace
+432,Customer_0432,5,East,2024-03-07,Email Campaign
+433,Customer_0433,3,North,2022-06-15,Email Campaign
+434,Customer_0434,1,West,2022-09-14,Marketplace
+435,Customer_0435,5,West,2023-07-22,Email Campaign
+436,Customer_0436,5,West,2022-10-19,Paid Ads
+437,Customer_0437,2,North,2023-06-10,Marketplace
+438,Customer_0438,1,East,2022-08-16,Referral
+439,Customer_0439,6,West,2023-03-01,Marketplace
+440,Customer_0440,3,East,2022-08-30,Organic
+441,Customer_0441,2,South,2022-01-29,Organic
+442,Customer_0442,5,South,2023-10-28,Paid Ads
+443,Customer_0443,1,East,2022-10-21,Paid Ads
+444,Customer_0444,5,East,2023-04-26,Email Campaign
+445,Customer_0445,1,West,2022-03-23,Referral
+446,Customer_0446,2,Central,2022-06-03,Email Campaign
+447,Customer_0447,3,South,2022-04-24,Paid Ads
+448,Customer_0448,2,North,2022-02-18,Marketplace
+449,Customer_0449,4,East,2023-09-30,Organic
+450,Customer_0450,1,Central,2023-05-27,Email Campaign
+451,Customer_0451,1,Central,2023-06-12,Paid Ads
+452,Customer_0452,4,East,2022-10-26,Organic
+453,Customer_0453,4,Central,2022-09-04,Marketplace
+454,Customer_0454,2,West,2023-11-16,Email Campaign
+455,Customer_0455,6,Central,2022-03-11,Email Campaign
+456,Customer_0456,3,Central,2023-06-04,Organic
+457,Customer_0457,2,West,2023-04-27,Marketplace
+458,Customer_0458,6,West,2022-09-17,Referral
+459,Customer_0459,5,North,2022-12-20,Organic
+460,Customer_0460,5,South,2024-01-23,Paid Ads
+461,Customer_0461,1,South,2023-07-14,Paid Ads
+462,Customer_0462,5,East,2023-12-03,Marketplace
+463,Customer_0463,4,North,2024-04-10,Organic
+464,Customer_0464,4,West,2023-04-14,Referral
+465,Customer_0465,2,North,2024-03-21,Organic
+466,Customer_0466,2,Central,2022-11-14,Marketplace
+467,Customer_0467,6,East,2023-07-11,Referral
+468,Customer_0468,1,North,2023-10-25,Referral
+469,Customer_0469,2,West,2024-03-10,Referral
+470,Customer_0470,2,South,2024-03-29,Marketplace
+471,Customer_0471,6,East,2024-02-01,Marketplace
+472,Customer_0472,2,East,2022-07-11,Marketplace
+473,Customer_0473,2,Central,2024-03-27,Referral
+474,Customer_0474,5,East,2024-01-15,Organic
+475,Customer_0475,3,North,2024-04-22,Email Campaign
+476,Customer_0476,2,West,2022-04-16,Referral
+477,Customer_0477,4,East,2022-11-10,Email Campaign
+478,Customer_0478,4,East,2022-06-20,Referral
+479,Customer_0479,3,South,2024-01-15,Email Campaign
+480,Customer_0480,6,West,2022-10-09,Organic
+481,Customer_0481,4,South,2023-02-20,Email Campaign
+482,Customer_0482,5,North,2023-11-27,Organic
+483,Customer_0483,1,East,2023-09-15,Organic
+484,Customer_0484,1,South,2022-08-30,Referral
+485,Customer_0485,2,West,2023-08-04,Email Campaign
+486,Customer_0486,1,South,2023-04-06,Referral
+487,Customer_0487,3,Central,2022-03-20,Paid Ads
+488,Customer_0488,3,South,2023-02-12,Referral
+489,Customer_0489,2,West,2022-04-27,Paid Ads
+490,Customer_0490,3,Central,2023-02-01,Organic
+491,Customer_0491,2,East,2022-09-24,Paid Ads
+492,Customer_0492,6,East,2022-10-20,Paid Ads
+493,Customer_0493,1,West,2024-05-23,Marketplace
+494,Customer_0494,1,East,2024-01-01,Organic
+495,Customer_0495,5,South,2024-05-15,Referral
+496,Customer_0496,4,Central,2023-07-18,Referral
+497,Customer_0497,6,North,2024-05-21,Paid Ads
+498,Customer_0498,5,North,2023-06-05,Organic
+499,Customer_0499,6,North,2024-03-22,Paid Ads
+500,Customer_0500,5,South,2022-01-27,Email Campaign
+501,Customer_0501,3,Central,2023-04-24,Paid Ads
+502,Customer_0502,4,West,2022-03-30,Referral
+503,Customer_0503,2,East,2024-01-05,Email Campaign
+504,Customer_0504,2,Central,2023-02-24,Organic
+505,Customer_0505,1,West,2022-11-21,Marketplace
+506,Customer_0506,3,South,2023-06-14,Paid Ads
+507,Customer_0507,5,Central,2024-03-09,Email Campaign
+508,Customer_0508,2,East,2022-05-13,Email Campaign
+509,Customer_0509,6,West,2022-02-26,Email Campaign
+510,Customer_0510,1,North,2022-06-18,Referral
+511,Customer_0511,6,South,2022-08-19,Email Campaign
+512,Customer_0512,6,West,2024-05-16,Referral
+513,Customer_0513,2,South,2023-07-19,Paid Ads
+514,Customer_0514,4,Central,2023-09-22,Organic
+515,Customer_0515,3,Central,2022-06-22,Email Campaign
+516,Customer_0516,1,Central,2023-11-06,Email Campaign
+517,Customer_0517,2,West,2023-08-01,Organic
+518,Customer_0518,1,Central,2023-10-19,Referral
+519,Customer_0519,4,Central,2024-02-25,Marketplace
+520,Customer_0520,4,East,2022-02-01,Email Campaign
+521,Customer_0521,2,East,2022-11-06,Paid Ads
+522,Customer_0522,5,East,2023-12-03,Referral
+523,Customer_0523,3,West,2023-12-07,Paid Ads
+524,Customer_0524,3,East,2023-05-11,Paid Ads
+525,Customer_0525,2,South,2022-05-28,Referral
+526,Customer_0526,5,South,2024-05-31,Marketplace
+527,Customer_0527,1,Central,2023-01-15,Email Campaign
+528,Customer_0528,1,East,2022-09-05,Organic
+529,Customer_0529,2,North,2022-09-11,Organic
+530,Customer_0530,1,Central,2023-01-29,Marketplace
+531,Customer_0531,2,North,2024-06-05,Referral
+532,Customer_0532,6,South,2024-01-09,Paid Ads
+533,Customer_0533,5,Central,2023-05-26,Marketplace
+534,Customer_0534,3,East,2022-11-12,Organic
+535,Customer_0535,1,Central,2023-02-07,Marketplace
+536,Customer_0536,6,Central,2022-08-09,Referral
+537,Customer_0537,1,East,2022-10-16,Email Campaign
+538,Customer_0538,6,East,2023-11-01,Referral
+539,Customer_0539,3,West,2024-05-17,Marketplace
+540,Customer_0540,1,South,2022-09-28,Marketplace
+541,Customer_0541,2,West,2023-02-15,Email Campaign
+542,Customer_0542,3,Central,2023-01-07,Referral
+543,Customer_0543,1,East,2023-06-01,Email Campaign
+544,Customer_0544,2,Central,2023-10-01,Organic
+545,Customer_0545,1,East,2022-04-10,Referral
+546,Customer_0546,5,Central,2022-12-14,Referral
+547,Customer_0547,5,Central,2022-07-23,Email Campaign
+548,Customer_0548,2,West,2022-02-11,Organic
+549,Customer_0549,1,East,2022-12-08,Email Campaign
+550,Customer_0550,3,Central,2023-09-13,Paid Ads
+551,Customer_0551,2,South,2023-09-20,Paid Ads
+552,Customer_0552,2,South,2023-09-24,Email Campaign
+553,Customer_0553,2,Central,2024-04-28,Email Campaign
+554,Customer_0554,3,South,2023-07-31,Marketplace
+555,Customer_0555,5,South,2023-01-13,Organic
+556,Customer_0556,6,South,2023-08-21,Organic
+557,Customer_0557,3,Central,2022-09-29,Email Campaign
+558,Customer_0558,2,Central,2022-02-22,Marketplace
+559,Customer_0559,1,Central,2023-10-07,Marketplace
+560,Customer_0560,1,North,2023-11-29,Organic
+561,Customer_0561,3,West,2023-12-19,Paid Ads
+562,Customer_0562,1,East,2022-11-18,Paid Ads
+563,Customer_0563,2,East,2022-07-28,Email Campaign
+564,Customer_0564,5,West,2023-04-28,Paid Ads
+565,Customer_0565,3,South,2023-07-29,Marketplace
+566,Customer_0566,3,North,2022-11-18,Marketplace
+567,Customer_0567,6,Central,2022-12-17,Referral
+568,Customer_0568,4,South,2024-06-07,Email Campaign
+569,Customer_0569,3,South,2022-09-10,Email Campaign
+570,Customer_0570,2,South,2022-11-01,Paid Ads
+571,Customer_0571,4,South,2023-05-16,Marketplace
+572,Customer_0572,2,South,2024-03-25,Referral
+573,Customer_0573,1,Central,2023-11-24,Marketplace
+574,Customer_0574,6,South,2023-02-09,Paid Ads
+575,Customer_0575,2,West,2022-10-22,Referral
+576,Customer_0576,6,South,2023-11-03,Marketplace
+577,Customer_0577,2,Central,2024-04-27,Referral
+578,Customer_0578,6,South,2023-12-14,Paid Ads
+579,Customer_0579,1,Central,2024-01-29,Paid Ads
+580,Customer_0580,2,Central,2023-11-17,Paid Ads
+581,Customer_0581,4,West,2022-02-23,Marketplace
+582,Customer_0582,2,West,2023-04-29,Paid Ads
+583,Customer_0583,1,North,2023-07-18,Marketplace
+584,Customer_0584,4,East,2024-06-18,Marketplace
+585,Customer_0585,4,South,2024-02-14,Referral
+586,Customer_0586,2,West,2022-03-02,Email Campaign
+587,Customer_0587,2,West,2024-01-27,Paid Ads
+588,Customer_0588,2,North,2024-05-07,Organic
+589,Customer_0589,6,East,2023-02-11,Paid Ads
+590,Customer_0590,6,South,2024-06-12,Organic
+591,Customer_0591,1,Central,2023-08-05,Organic
+592,Customer_0592,6,South,2022-12-10,Marketplace
+593,Customer_0593,6,Central,2023-07-11,Marketplace
+594,Customer_0594,6,Central,2022-05-18,Marketplace
+595,Customer_0595,2,West,2024-04-08,Referral
+596,Customer_0596,1,South,2023-04-15,Paid Ads
+597,Customer_0597,1,South,2022-12-12,Email Campaign
+598,Customer_0598,4,North,2022-07-17,Email Campaign
+599,Customer_0599,5,East,2023-02-20,Email Campaign
+600,Customer_0600,2,West,2023-02-15,Paid Ads
+601,Customer_0601,6,South,2023-05-04,Paid Ads
+602,Customer_0602,1,North,2023-01-28,Marketplace
+603,Customer_0603,5,South,2022-12-04,Email Campaign
+604,Customer_0604,5,South,2022-01-12,Referral
+605,Customer_0605,4,West,2022-03-05,Marketplace
+606,Customer_0606,2,Central,2023-02-20,Referral
+607,Customer_0607,4,South,2023-10-17,Referral
+608,Customer_0608,4,North,2022-08-13,Marketplace
+609,Customer_0609,1,Central,2024-02-05,Referral
+610,Customer_0610,2,East,2023-07-17,Email Campaign
+611,Customer_0611,5,North,2024-04-25,Paid Ads
+612,Customer_0612,4,West,2023-09-03,Email Campaign
+613,Customer_0613,3,South,2023-12-22,Organic
+614,Customer_0614,6,West,2022-04-25,Email Campaign
+615,Customer_0615,6,Central,2022-07-27,Email Campaign
+616,Customer_0616,1,Central,2022-12-02,Marketplace
+617,Customer_0617,1,Central,2022-07-30,Marketplace
+618,Customer_0618,1,East,2023-06-07,Organic
+619,Customer_0619,3,East,2023-06-10,Marketplace
+620,Customer_0620,3,East,2023-07-27,Referral
+621,Customer_0621,5,South,2023-02-10,Organic
+622,Customer_0622,5,West,2023-08-16,Organic
+623,Customer_0623,3,West,2023-12-19,Email Campaign
+624,Customer_0624,6,East,2022-03-12,Organic
+625,Customer_0625,2,North,2022-07-04,Marketplace
+626,Customer_0626,2,East,2023-01-27,Marketplace
+627,Customer_0627,2,Central,2023-12-01,Paid Ads
+628,Customer_0628,4,West,2022-12-23,Paid Ads
+629,Customer_0629,6,Central,2023-02-07,Paid Ads
+630,Customer_0630,5,West,2022-08-17,Organic
+631,Customer_0631,6,Central,2023-04-20,Marketplace
+632,Customer_0632,3,North,2024-04-23,Paid Ads
+633,Customer_0633,3,South,2022-06-08,Paid Ads
+634,Customer_0634,6,West,2024-01-13,Organic
+635,Customer_0635,5,Central,2023-03-06,Organic
+636,Customer_0636,2,West,2022-03-10,Email Campaign
+637,Customer_0637,1,West,2023-09-05,Paid Ads
+638,Customer_0638,5,East,2023-02-16,Paid Ads
+639,Customer_0639,3,West,2024-02-12,Paid Ads
+640,Customer_0640,3,North,2022-10-24,Email Campaign
+641,Customer_0641,2,South,2023-09-05,Paid Ads
+642,Customer_0642,2,Central,2022-05-27,Paid Ads
+643,Customer_0643,2,West,2022-10-09,Email Campaign
+644,Customer_0644,6,North,2024-06-19,Marketplace
+645,Customer_0645,3,South,2022-02-18,Marketplace
+646,Customer_0646,5,East,2022-11-23,Marketplace
+647,Customer_0647,1,North,2023-01-21,Email Campaign
+648,Customer_0648,3,North,2024-05-19,Referral
+649,Customer_0649,5,East,2022-05-28,Organic
+650,Customer_0650,3,Central,2023-03-03,Email Campaign
+651,Customer_0651,1,South,2022-09-06,Paid Ads
+652,Customer_0652,2,East,2022-03-22,Referral
+653,Customer_0653,1,North,2024-01-12,Organic
+654,Customer_0654,2,Central,2023-11-21,Email Campaign
+655,Customer_0655,1,North,2022-03-16,Email Campaign
+656,Customer_0656,5,North,2023-07-27,Marketplace
+657,Customer_0657,2,South,2022-12-07,Organic
+658,Customer_0658,2,West,2022-07-14,Marketplace
+659,Customer_0659,6,Central,2023-12-14,Paid Ads
+660,Customer_0660,2,Central,2022-09-03,Referral
+661,Customer_0661,5,East,2023-01-25,Email Campaign
+662,Customer_0662,4,South,2022-11-12,Referral
+663,Customer_0663,3,East,2023-05-25,Organic
+664,Customer_0664,5,East,2024-01-10,Referral
+665,Customer_0665,6,South,2023-01-15,Marketplace
+666,Customer_0666,1,North,2024-06-03,Paid Ads
+667,Customer_0667,1,Central,2023-07-21,Email Campaign
+668,Customer_0668,5,North,2022-10-30,Paid Ads
+669,Customer_0669,2,Central,2023-01-24,Paid Ads
+670,Customer_0670,3,South,2023-11-02,Referral
+671,Customer_0671,5,East,2023-05-16,Marketplace
+672,Customer_0672,1,South,2024-03-25,Paid Ads
+673,Customer_0673,1,East,2023-07-14,Paid Ads
+674,Customer_0674,6,West,2023-07-10,Email Campaign
+675,Customer_0675,1,West,2024-05-17,Organic
+676,Customer_0676,5,North,2023-02-27,Paid Ads
+677,Customer_0677,1,West,2022-06-04,Paid Ads
+678,Customer_0678,3,West,2023-01-18,Email Campaign
+679,Customer_0679,4,East,2023-09-24,Marketplace
+680,Customer_0680,1,Central,2023-06-29,Marketplace
+681,Customer_0681,1,South,2023-06-27,Email Campaign
+682,Customer_0682,6,Central,2022-01-18,Marketplace
+683,Customer_0683,5,West,2022-07-03,Organic
+684,Customer_0684,3,North,2022-09-04,Email Campaign
+685,Customer_0685,3,South,2024-04-14,Referral
+686,Customer_0686,5,South,2022-03-22,Marketplace
+687,Customer_0687,3,North,2022-09-07,Referral
+688,Customer_0688,4,West,2024-05-18,Organic
+689,Customer_0689,1,East,2023-01-24,Email Campaign
+690,Customer_0690,3,West,2023-10-15,Paid Ads
+691,Customer_0691,1,East,2024-05-15,Referral
+692,Customer_0692,3,West,2024-05-28,Email Campaign
+693,Customer_0693,6,North,2022-08-24,Email Campaign
+694,Customer_0694,3,West,2022-02-17,Referral
+695,Customer_0695,6,West,2023-08-01,Paid Ads
+696,Customer_0696,6,West,2022-11-19,Paid Ads
+697,Customer_0697,3,East,2024-02-10,Organic
+698,Customer_0698,2,North,2023-08-01,Email Campaign
+699,Customer_0699,5,Central,2023-02-03,Referral
+700,Customer_0700,2,North,2024-01-28,Organic
+701,Customer_0701,3,West,2022-12-21,Organic
+702,Customer_0702,3,West,2024-05-08,Referral
+703,Customer_0703,4,Central,2023-09-21,Marketplace
+704,Customer_0704,6,West,2022-12-01,Referral
+705,Customer_0705,5,East,2023-04-07,Paid Ads
+706,Customer_0706,2,East,2023-01-20,Paid Ads
+707,Customer_0707,4,East,2023-11-08,Organic
+708,Customer_0708,5,North,2022-10-30,Organic
+709,Customer_0709,1,East,2022-06-07,Paid Ads
+710,Customer_0710,5,South,2022-11-21,Organic
+711,Customer_0711,1,East,2022-11-12,Referral
+712,Customer_0712,5,North,2022-04-15,Organic
+713,Customer_0713,2,Central,2023-04-05,Email Campaign
+714,Customer_0714,3,West,2022-04-16,Organic
+715,Customer_0715,2,Central,2022-04-06,Email Campaign
+716,Customer_0716,5,East,2024-06-03,Organic
+717,Customer_0717,2,West,2023-02-02,Email Campaign
+718,Customer_0718,6,Central,2022-09-06,Email Campaign
+719,Customer_0719,1,North,2023-01-25,Paid Ads
+720,Customer_0720,2,East,2022-10-02,Paid Ads
+721,Customer_0721,1,South,2023-03-22,Marketplace
+722,Customer_0722,2,West,2024-03-12,Referral
+723,Customer_0723,2,East,2022-09-10,Email Campaign
+724,Customer_0724,4,West,2023-04-14,Paid Ads
+725,Customer_0725,2,South,2023-02-10,Email Campaign
+726,Customer_0726,2,South,2024-06-01,Marketplace
+727,Customer_0727,2,Central,2024-04-15,Paid Ads
+728,Customer_0728,2,North,2023-09-10,Marketplace
+729,Customer_0729,2,South,2023-02-12,Referral
+730,Customer_0730,5,East,2023-10-11,Email Campaign
+731,Customer_0731,5,East,2022-11-30,Referral
+732,Customer_0732,5,South,2023-02-07,Organic
+733,Customer_0733,6,Central,2022-07-24,Email Campaign
+734,Customer_0734,1,Central,2024-02-26,Organic
+735,Customer_0735,6,North,2023-04-18,Marketplace
+736,Customer_0736,5,West,2024-05-01,Marketplace
+737,Customer_0737,4,South,2022-05-23,Paid Ads
+738,Customer_0738,2,East,2022-06-07,Marketplace
+739,Customer_0739,1,East,2023-09-05,Email Campaign
+740,Customer_0740,2,East,2023-06-03,Email Campaign
+741,Customer_0741,1,Central,2023-01-04,Email Campaign
+742,Customer_0742,4,West,2022-03-29,Paid Ads
+743,Customer_0743,4,North,2022-12-30,Email Campaign
+744,Customer_0744,1,East,2023-10-23,Referral
+745,Customer_0745,6,West,2023-03-17,Organic
+746,Customer_0746,1,Central,2022-08-16,Email Campaign
+747,Customer_0747,3,Central,2023-12-06,Paid Ads
+748,Customer_0748,3,East,2023-02-05,Email Campaign
+749,Customer_0749,4,South,2022-06-04,Organic
+750,Customer_0750,3,East,2022-10-30,Organic
+751,Customer_0751,1,North,2024-01-18,Referral
+752,Customer_0752,2,North,2023-04-12,Email Campaign
+753,Customer_0753,3,West,2023-05-03,Marketplace
+754,Customer_0754,5,South,2023-04-09,Organic
+755,Customer_0755,2,West,2024-04-09,Organic
+756,Customer_0756,5,West,2023-10-26,Paid Ads
+757,Customer_0757,6,North,2024-01-29,Email Campaign
+758,Customer_0758,1,South,2022-06-13,Email Campaign
+759,Customer_0759,3,North,2023-04-19,Marketplace
+760,Customer_0760,4,East,2022-07-10,Marketplace
+761,Customer_0761,1,North,2023-09-21,Marketplace
+762,Customer_0762,3,West,2023-02-03,Paid Ads
+763,Customer_0763,2,West,2024-02-10,Email Campaign
+764,Customer_0764,1,Central,2024-06-11,Paid Ads
+765,Customer_0765,2,East,2022-07-21,Organic
+766,Customer_0766,2,East,2024-06-02,Email Campaign
+767,Customer_0767,6,Central,2022-11-17,Marketplace
+768,Customer_0768,4,West,2023-08-25,Referral
+769,Customer_0769,2,Central,2023-04-14,Paid Ads
+770,Customer_0770,5,South,2023-12-24,Email Campaign
+771,Customer_0771,3,North,2023-11-20,Referral
+772,Customer_0772,1,West,2022-11-09,Paid Ads
+773,Customer_0773,2,Central,2022-05-25,Marketplace
+774,Customer_0774,2,Central,2022-05-22,Marketplace
+775,Customer_0775,3,Central,2023-05-14,Paid Ads
+776,Customer_0776,3,South,2023-05-17,Paid Ads
+777,Customer_0777,2,East,2024-05-12,Email Campaign
+778,Customer_0778,1,West,2023-01-03,Marketplace
+779,Customer_0779,1,East,2024-04-14,Email Campaign
+780,Customer_0780,3,East,2023-05-22,Marketplace
+781,Customer_0781,2,East,2024-05-10,Marketplace
+782,Customer_0782,1,West,2023-08-02,Paid Ads
+783,Customer_0783,2,North,2022-10-09,Email Campaign
+784,Customer_0784,2,East,2024-03-10,Email Campaign
+785,Customer_0785,5,East,2024-02-24,Email Campaign
+786,Customer_0786,3,West,2023-08-10,Referral
+787,Customer_0787,5,South,2024-04-23,Email Campaign
+788,Customer_0788,5,East,2022-02-12,Email Campaign
+789,Customer_0789,2,West,2023-03-12,Paid Ads
+790,Customer_0790,2,East,2022-02-03,Referral
+791,Customer_0791,2,West,2024-04-16,Marketplace
+792,Customer_0792,5,North,2022-05-01,Paid Ads
+793,Customer_0793,5,South,2023-08-26,Email Campaign
+794,Customer_0794,4,Central,2022-06-19,Paid Ads
+795,Customer_0795,5,North,2024-04-13,Organic
+796,Customer_0796,3,South,2023-06-30,Email Campaign
+797,Customer_0797,3,South,2022-11-28,Referral
+798,Customer_0798,3,Central,2024-05-28,Organic
+799,Customer_0799,1,East,2024-02-08,Organic
+800,Customer_0800,6,North,2024-06-06,Paid Ads
+801,Customer_0801,2,South,2023-12-30,Paid Ads
+802,Customer_0802,5,East,2023-11-24,Marketplace
+803,Customer_0803,1,South,2023-10-10,Marketplace
+804,Customer_0804,2,West,2022-03-19,Marketplace
+805,Customer_0805,3,South,2022-10-12,Marketplace
+806,Customer_0806,6,Central,2022-12-02,Organic
+807,Customer_0807,5,West,2024-05-17,Marketplace
+808,Customer_0808,4,South,2023-12-16,Organic
+809,Customer_0809,5,North,2023-02-12,Marketplace
+810,Customer_0810,5,South,2023-05-22,Referral
+811,Customer_0811,5,Central,2022-12-12,Email Campaign
+812,Customer_0812,1,East,2024-05-22,Referral
+813,Customer_0813,6,West,2024-02-20,Organic
+814,Customer_0814,1,East,2024-03-13,Organic
+815,Customer_0815,1,North,2024-05-28,Marketplace
+816,Customer_0816,3,North,2023-03-15,Paid Ads
+817,Customer_0817,6,North,2022-11-06,Referral
+818,Customer_0818,1,South,2023-01-05,Organic
+819,Customer_0819,2,North,2023-10-27,Organic
+820,Customer_0820,2,North,2022-11-09,Marketplace
+821,Customer_0821,4,West,2023-12-22,Organic
+822,Customer_0822,2,North,2022-03-21,Email Campaign
+823,Customer_0823,2,East,2023-11-28,Organic
+824,Customer_0824,1,West,2022-12-18,Marketplace
+825,Customer_0825,4,West,2023-05-05,Paid Ads
+826,Customer_0826,2,West,2024-01-19,Organic
+827,Customer_0827,2,North,2022-11-03,Marketplace
+828,Customer_0828,5,North,2024-02-11,Paid Ads
+829,Customer_0829,1,West,2023-07-31,Email Campaign
+830,Customer_0830,4,South,2023-03-27,Paid Ads
+831,Customer_0831,4,East,2022-06-05,Email Campaign
+832,Customer_0832,4,North,2024-05-30,Organic
+833,Customer_0833,6,West,2022-05-24,Email Campaign
+834,Customer_0834,5,East,2022-12-26,Referral
+835,Customer_0835,5,South,2022-09-11,Organic
+836,Customer_0836,2,Central,2023-09-08,Email Campaign
+837,Customer_0837,2,West,2023-12-09,Referral
+838,Customer_0838,2,Central,2023-09-14,Paid Ads
+839,Customer_0839,5,West,2022-10-30,Paid Ads
+840,Customer_0840,3,North,2022-04-26,Marketplace
+841,Customer_0841,4,Central,2022-03-14,Organic
+842,Customer_0842,6,North,2022-11-21,Marketplace
+843,Customer_0843,5,East,2023-08-06,Referral
+844,Customer_0844,3,East,2022-06-26,Organic
+845,Customer_0845,1,West,2022-03-11,Referral
+846,Customer_0846,2,East,2022-03-03,Email Campaign
+847,Customer_0847,2,Central,2023-12-31,Marketplace
+848,Customer_0848,3,West,2023-02-16,Email Campaign
+849,Customer_0849,3,South,2022-06-06,Organic
+850,Customer_0850,2,North,2023-06-08,Paid Ads
+851,Customer_0851,3,Central,2023-02-05,Organic
+852,Customer_0852,2,North,2023-03-24,Organic
+853,Customer_0853,2,West,2023-03-21,Marketplace
+854,Customer_0854,4,South,2022-02-26,Paid Ads
+855,Customer_0855,1,North,2023-12-26,Organic
+856,Customer_0856,1,Central,2022-12-22,Email Campaign
+857,Customer_0857,5,South,2024-01-09,Paid Ads
+858,Customer_0858,2,South,2024-02-07,Organic
+859,Customer_0859,5,South,2022-01-31,Marketplace
+860,Customer_0860,2,South,2022-03-07,Email Campaign
+861,Customer_0861,4,East,2023-05-24,Email Campaign
+862,Customer_0862,2,Central,2023-05-27,Paid Ads
+863,Customer_0863,2,West,2022-09-19,Email Campaign
+864,Customer_0864,4,North,2022-04-29,Email Campaign
+865,Customer_0865,1,West,2024-05-29,Paid Ads
+866,Customer_0866,1,East,2023-01-08,Paid Ads
+867,Customer_0867,1,West,2024-05-28,Email Campaign
+868,Customer_0868,5,East,2024-01-02,Paid Ads
+869,Customer_0869,2,South,2023-03-03,Referral
+870,Customer_0870,5,South,2023-08-09,Organic
+871,Customer_0871,3,North,2022-02-23,Paid Ads
+872,Customer_0872,5,East,2022-02-17,Organic
+873,Customer_0873,5,South,2024-06-05,Referral
+874,Customer_0874,2,East,2023-07-21,Organic
+875,Customer_0875,2,Central,2022-10-26,Referral
+876,Customer_0876,5,East,2022-09-06,Referral
+877,Customer_0877,3,North,2023-05-21,Email Campaign
+878,Customer_0878,5,North,2022-09-09,Organic
+879,Customer_0879,6,North,2022-01-25,Email Campaign
+880,Customer_0880,2,West,2024-05-09,Referral
+881,Customer_0881,1,East,2023-11-05,Referral
+882,Customer_0882,1,North,2023-06-27,Marketplace
+883,Customer_0883,3,North,2022-03-03,Referral
+884,Customer_0884,1,Central,2022-08-26,Marketplace
+885,Customer_0885,4,East,2023-01-17,Organic
+886,Customer_0886,3,North,2023-06-02,Marketplace
+887,Customer_0887,1,West,2023-08-05,Marketplace
+888,Customer_0888,4,North,2022-05-14,Referral
+889,Customer_0889,2,East,2022-11-19,Referral
+890,Customer_0890,2,North,2022-10-06,Organic
+891,Customer_0891,6,Central,2022-05-20,Organic
+892,Customer_0892,1,East,2022-06-18,Marketplace
+893,Customer_0893,2,Central,2022-05-04,Referral
+894,Customer_0894,6,East,2022-08-01,Referral
+895,Customer_0895,3,West,2024-05-22,Organic
+896,Customer_0896,1,South,2023-12-04,Email Campaign
+897,Customer_0897,1,South,2024-05-05,Paid Ads
+898,Customer_0898,1,South,2022-09-12,Marketplace
+899,Customer_0899,3,South,2023-11-25,Referral
+900,Customer_0900,5,West,2022-06-28,Marketplace
+901,Customer_0901,5,Central,2023-07-24,Paid Ads
+902,Customer_0902,1,North,2022-04-15,Organic
+903,Customer_0903,1,North,2024-04-30,Paid Ads
+904,Customer_0904,2,South,2023-02-15,Organic
+905,Customer_0905,3,West,2022-09-23,Organic
+906,Customer_0906,6,East,2022-07-22,Paid Ads
+907,Customer_0907,1,South,2024-05-17,Organic
+908,Customer_0908,1,West,2023-04-18,Paid Ads
+909,Customer_0909,6,East,2023-03-20,Marketplace
+910,Customer_0910,1,East,2023-12-01,Paid Ads
+911,Customer_0911,2,South,2022-07-11,Referral
+912,Customer_0912,3,West,2022-06-02,Email Campaign
+913,Customer_0913,4,South,2022-09-09,Marketplace
+914,Customer_0914,2,East,2023-07-18,Organic
+915,Customer_0915,1,North,2023-01-28,Marketplace
+916,Customer_0916,2,Central,2024-03-27,Paid Ads
+917,Customer_0917,4,Central,2024-04-01,Organic
+918,Customer_0918,6,South,2024-03-11,Marketplace
+919,Customer_0919,3,South,2023-05-12,Email Campaign
+920,Customer_0920,3,South,2023-02-02,Paid Ads
+921,Customer_0921,1,North,2023-09-04,Organic
+922,Customer_0922,6,South,2024-03-08,Organic
+923,Customer_0923,5,Central,2023-04-29,Referral
+924,Customer_0924,5,North,2022-08-27,Organic
+925,Customer_0925,2,South,2022-09-04,Email Campaign
+926,Customer_0926,5,West,2024-01-25,Paid Ads
+927,Customer_0927,3,East,2024-03-27,Referral
+928,Customer_0928,6,North,2024-05-15,Paid Ads
+929,Customer_0929,2,South,2022-11-22,Email Campaign
+930,Customer_0930,1,South,2023-12-19,Email Campaign
+931,Customer_0931,3,North,2023-07-31,Marketplace
+932,Customer_0932,3,East,2022-06-29,Organic
+933,Customer_0933,1,Central,2022-08-27,Paid Ads
+934,Customer_0934,1,West,2023-05-05,Referral
+935,Customer_0935,6,North,2022-07-26,Referral
+936,Customer_0936,4,South,2024-04-01,Organic
+937,Customer_0937,1,North,2023-08-24,Organic
+938,Customer_0938,5,South,2024-05-31,Organic
+939,Customer_0939,2,East,2023-11-10,Email Campaign
+940,Customer_0940,1,South,2022-11-06,Paid Ads
+941,Customer_0941,6,East,2024-01-20,Marketplace
+942,Customer_0942,4,Central,2022-06-28,Email Campaign
+943,Customer_0943,5,Central,2022-08-17,Paid Ads
+944,Customer_0944,2,South,2024-01-22,Paid Ads
+945,Customer_0945,1,Central,2022-01-02,Marketplace
+946,Customer_0946,5,Central,2024-02-29,Organic
+947,Customer_0947,2,Central,2022-11-22,Paid Ads
+948,Customer_0948,4,East,2022-04-17,Paid Ads
+949,Customer_0949,2,North,2022-03-21,Referral
+950,Customer_0950,6,West,2022-06-21,Referral
+951,Customer_0951,3,North,2022-09-29,Paid Ads
+952,Customer_0952,4,South,2022-12-25,Organic
+953,Customer_0953,5,East,2022-02-19,Marketplace
+954,Customer_0954,5,East,2022-06-20,Marketplace
+955,Customer_0955,6,Central,2022-12-26,Marketplace
+956,Customer_0956,1,Central,2023-05-06,Paid Ads
+957,Customer_0957,1,West,2022-03-17,Referral
+958,Customer_0958,1,West,2022-09-25,Organic
+959,Customer_0959,2,North,2023-01-20,Organic
+960,Customer_0960,3,South,2022-04-06,Email Campaign
+961,Customer_0961,6,West,2023-05-10,Marketplace
+962,Customer_0962,6,Central,2022-06-18,Marketplace
+963,Customer_0963,1,South,2022-04-14,Paid Ads
+964,Customer_0964,6,Central,2023-02-24,Email Campaign
+965,Customer_0965,2,South,2022-10-16,Paid Ads
+966,Customer_0966,1,Central,2023-02-07,Email Campaign
+967,Customer_0967,5,West,2022-06-07,Referral
+968,Customer_0968,1,South,2022-03-31,Email Campaign
+969,Customer_0969,3,West,2022-04-10,Paid Ads
+970,Customer_0970,1,West,2022-10-26,Marketplace
+971,Customer_0971,5,East,2022-11-12,Marketplace
+972,Customer_0972,3,South,2023-11-08,Organic
+973,Customer_0973,4,North,2023-02-01,Referral
+974,Customer_0974,6,North,2023-01-14,Marketplace
+975,Customer_0975,1,East,2023-03-27,Referral
+976,Customer_0976,2,Central,2022-10-03,Organic
+977,Customer_0977,1,West,2023-12-15,Organic
+978,Customer_0978,4,Central,2024-04-07,Marketplace
+979,Customer_0979,6,North,2023-08-27,Email Campaign
+980,Customer_0980,1,Central,2023-02-01,Marketplace
+981,Customer_0981,6,East,2023-12-05,Email Campaign
+982,Customer_0982,6,South,2023-05-03,Organic
+983,Customer_0983,2,West,2024-05-24,Email Campaign
+984,Customer_0984,3,Central,2023-06-14,Email Campaign
+985,Customer_0985,1,East,2024-02-15,Paid Ads
+986,Customer_0986,6,North,2022-06-21,Paid Ads
+987,Customer_0987,1,West,2023-03-10,Marketplace
+988,Customer_0988,2,North,2024-04-22,Email Campaign
+989,Customer_0989,2,West,2024-01-15,Organic
+990,Customer_0990,2,Central,2023-02-11,Referral
+991,Customer_0991,5,East,2023-06-17,Organic
+992,Customer_0992,5,Central,2023-10-01,Email Campaign
+993,Customer_0993,5,East,2022-04-26,Paid Ads
+994,Customer_0994,1,Central,2023-08-26,Organic
+995,Customer_0995,6,West,2023-07-31,Referral
+996,Customer_0996,5,East,2022-12-19,Referral
+997,Customer_0997,2,Central,2023-05-13,Email Campaign
+998,Customer_0998,3,South,2022-06-26,Marketplace
+999,Customer_0999,1,East,2023-09-16,Organic
+1000,Customer_1000,2,South,2024-06-19,Paid Ads
+1001,Customer_1001,1,South,2023-05-02,Referral
+1002,Customer_1002,1,South,2024-04-17,Referral
+1003,Customer_1003,2,West,2023-05-19,Paid Ads
+1004,Customer_1004,1,East,2024-02-01,Referral
+1005,Customer_1005,2,Central,2023-03-03,Organic
+1006,Customer_1006,2,East,2022-08-05,Marketplace
+1007,Customer_1007,5,South,2024-06-07,Organic
+1008,Customer_1008,3,West,2022-06-12,Referral
+1009,Customer_1009,4,North,2023-02-18,Email Campaign
+1010,Customer_1010,5,North,2022-01-30,Paid Ads
+1011,Customer_1011,5,West,2022-07-25,Paid Ads
+1012,Customer_1012,1,South,2022-02-21,Paid Ads
+1013,Customer_1013,2,East,2024-04-23,Email Campaign
+1014,Customer_1014,2,West,2022-05-07,Paid Ads
+1015,Customer_1015,2,East,2023-09-01,Paid Ads
+1016,Customer_1016,6,Central,2023-05-01,Email Campaign
+1017,Customer_1017,2,South,2022-06-17,Organic
+1018,Customer_1018,2,West,2023-01-31,Paid Ads
+1019,Customer_1019,5,North,2024-03-09,Paid Ads
+1020,Customer_1020,4,North,2023-11-25,Referral
+1021,Customer_1021,4,West,2023-06-10,Organic
+1022,Customer_1022,3,North,2022-05-16,Email Campaign
+1023,Customer_1023,5,South,2022-08-18,Email Campaign
+1024,Customer_1024,5,South,2022-11-09,Marketplace
+1025,Customer_1025,6,South,2024-05-22,Marketplace
+1026,Customer_1026,2,South,2023-04-23,Email Campaign
+1027,Customer_1027,5,Central,2023-02-11,Organic
+1028,Customer_1028,1,South,2023-11-10,Email Campaign
+1029,Customer_1029,4,South,2023-09-16,Referral
+1030,Customer_1030,4,West,2023-05-09,Referral
+1031,Customer_1031,6,South,2023-10-18,Referral
+1032,Customer_1032,2,South,2023-12-30,Paid Ads
+1033,Customer_1033,1,North,2024-02-23,Organic
+1034,Customer_1034,5,Central,2024-04-01,Marketplace
+1035,Customer_1035,4,North,2023-11-29,Organic
+1036,Customer_1036,4,South,2022-10-30,Marketplace
+1037,Customer_1037,2,West,2024-01-25,Email Campaign
+1038,Customer_1038,4,North,2023-08-09,Referral
+1039,Customer_1039,5,Central,2022-08-16,Marketplace
+1040,Customer_1040,6,South,2023-11-19,Email Campaign
+1041,Customer_1041,2,Central,2022-06-24,Paid Ads
+1042,Customer_1042,2,North,2023-04-28,Referral
+1043,Customer_1043,5,North,2023-07-27,Referral
+1044,Customer_1044,4,South,2022-08-16,Paid Ads
+1045,Customer_1045,5,East,2022-11-11,Referral
+1046,Customer_1046,2,South,2023-08-23,Marketplace
+1047,Customer_1047,5,West,2023-04-27,Email Campaign
+1048,Customer_1048,3,West,2023-09-28,Marketplace
+1049,Customer_1049,6,West,2023-05-28,Marketplace
+1050,Customer_1050,3,West,2023-02-28,Paid Ads
+1051,Customer_1051,1,South,2022-07-25,Marketplace
+1052,Customer_1052,6,North,2023-04-14,Referral
+1053,Customer_1053,5,West,2022-07-04,Marketplace
+1054,Customer_1054,2,South,2022-07-01,Organic
+1055,Customer_1055,1,North,2022-10-08,Paid Ads
+1056,Customer_1056,3,East,2022-06-12,Organic
+1057,Customer_1057,1,East,2023-03-21,Marketplace
+1058,Customer_1058,3,East,2023-05-04,Organic
+1059,Customer_1059,1,South,2022-07-24,Organic
+1060,Customer_1060,6,Central,2024-02-15,Paid Ads
+1061,Customer_1061,1,North,2022-01-05,Paid Ads
+1062,Customer_1062,4,South,2022-12-19,Paid Ads
+1063,Customer_1063,1,Central,2023-05-31,Referral
+1064,Customer_1064,1,West,2024-04-23,Referral
+1065,Customer_1065,6,Central,2023-04-12,Email Campaign
+1066,Customer_1066,3,North,2023-03-21,Referral
+1067,Customer_1067,6,South,2023-05-17,Paid Ads
+1068,Customer_1068,1,East,2024-04-11,Organic
+1069,Customer_1069,2,North,2024-01-15,Paid Ads
+1070,Customer_1070,5,Central,2023-08-27,Paid Ads
+1071,Customer_1071,1,West,2023-12-30,Marketplace
+1072,Customer_1072,5,Central,2022-09-19,Email Campaign
+1073,Customer_1073,1,West,2022-02-19,Organic
+1074,Customer_1074,1,East,2022-04-29,Marketplace
+1075,Customer_1075,2,South,2023-07-15,Marketplace
+1076,Customer_1076,4,West,2022-07-30,Referral
+1077,Customer_1077,3,Central,2022-04-14,Referral
+1078,Customer_1078,4,North,2023-12-19,Marketplace
+1079,Customer_1079,5,Central,2022-04-18,Email Campaign
+1080,Customer_1080,1,West,2022-04-27,Marketplace
+1081,Customer_1081,2,South,2022-07-24,Email Campaign
+1082,Customer_1082,6,East,2023-01-02,Referral
+1083,Customer_1083,1,East,2023-07-16,Paid Ads
+1084,Customer_1084,4,South,2023-05-08,Paid Ads
+1085,Customer_1085,1,West,2023-11-19,Organic
+1086,Customer_1086,5,East,2023-11-17,Paid Ads
+1087,Customer_1087,6,Central,2024-03-09,Organic
+1088,Customer_1088,5,South,2022-04-14,Paid Ads
+1089,Customer_1089,3,South,2022-10-31,Marketplace
+1090,Customer_1090,1,North,2024-04-12,Organic
+1091,Customer_1091,5,South,2023-01-04,Marketplace
+1092,Customer_1092,5,West,2022-04-08,Organic
+1093,Customer_1093,5,North,2023-11-11,Referral
+1094,Customer_1094,2,Central,2023-03-25,Referral
+1095,Customer_1095,5,South,2022-04-06,Referral
+1096,Customer_1096,2,East,2023-02-15,Marketplace
+1097,Customer_1097,2,East,2023-01-30,Marketplace
+1098,Customer_1098,4,North,2024-03-27,Organic
+1099,Customer_1099,1,West,2024-01-14,Paid Ads
+1100,Customer_1100,1,East,2023-08-28,Email Campaign
+1101,Customer_1101,4,Central,2022-07-05,Marketplace
+1102,Customer_1102,5,West,2023-09-19,Paid Ads
+1103,Customer_1103,3,West,2023-05-15,Marketplace
+1104,Customer_1104,3,South,2022-03-06,Referral
+1105,Customer_1105,1,Central,2024-06-08,Email Campaign
+1106,Customer_1106,5,South,2022-08-18,Email Campaign
+1107,Customer_1107,3,Central,2023-12-19,Organic
+1108,Customer_1108,3,North,2024-01-15,Marketplace
+1109,Customer_1109,2,East,2023-11-24,Paid Ads
+1110,Customer_1110,5,Central,2023-07-26,Organic
+1111,Customer_1111,1,Central,2022-06-10,Marketplace
+1112,Customer_1112,5,North,2024-06-09,Organic
+1113,Customer_1113,5,North,2022-11-25,Referral
+1114,Customer_1114,6,Central,2022-02-21,Paid Ads
+1115,Customer_1115,3,East,2023-01-23,Paid Ads
+1116,Customer_1116,1,Central,2023-03-31,Marketplace
+1117,Customer_1117,1,East,2023-05-26,Referral
+1118,Customer_1118,1,West,2023-05-25,Organic
+1119,Customer_1119,2,Central,2022-02-06,Email Campaign
+1120,Customer_1120,1,Central,2022-04-04,Email Campaign
+1121,Customer_1121,4,Central,2023-06-05,Paid Ads
+1122,Customer_1122,4,South,2023-04-13,Referral
+1123,Customer_1123,5,North,2024-04-16,Marketplace
+1124,Customer_1124,2,Central,2024-02-25,Email Campaign
+1125,Customer_1125,3,South,2023-11-04,Marketplace
+1126,Customer_1126,1,North,2024-02-17,Organic
+1127,Customer_1127,2,South,2024-04-29,Email Campaign
+1128,Customer_1128,3,West,2023-12-20,Organic
+1129,Customer_1129,6,North,2023-05-20,Marketplace
+1130,Customer_1130,1,North,2023-09-18,Paid Ads
+1131,Customer_1131,1,East,2024-05-22,Paid Ads
+1132,Customer_1132,3,North,2024-03-11,Referral
+1133,Customer_1133,1,West,2023-03-01,Email Campaign
+1134,Customer_1134,1,East,2023-04-07,Email Campaign
+1135,Customer_1135,6,East,2022-05-18,Organic
+1136,Customer_1136,3,Central,2022-02-19,Marketplace
+1137,Customer_1137,5,Central,2023-05-10,Paid Ads
+1138,Customer_1138,4,North,2022-06-27,Organic
+1139,Customer_1139,2,Central,2023-09-07,Referral
+1140,Customer_1140,3,East,2023-01-29,Email Campaign
+1141,Customer_1141,6,North,2024-02-20,Referral
+1142,Customer_1142,2,South,2022-12-18,Marketplace
+1143,Customer_1143,5,East,2022-05-22,Email Campaign
+1144,Customer_1144,4,Central,2024-02-06,Referral
+1145,Customer_1145,5,South,2023-07-15,Email Campaign
+1146,Customer_1146,4,North,2022-07-25,Email Campaign
+1147,Customer_1147,4,South,2023-12-05,Paid Ads
+1148,Customer_1148,6,North,2023-10-28,Email Campaign
+1149,Customer_1149,3,South,2023-10-15,Organic
+1150,Customer_1150,5,East,2023-07-30,Email Campaign
+1151,Customer_1151,3,East,2023-11-15,Email Campaign
+1152,Customer_1152,2,East,2024-05-17,Organic
+1153,Customer_1153,3,East,2022-01-26,Paid Ads
+1154,Customer_1154,1,North,2022-02-27,Referral
+1155,Customer_1155,5,South,2022-06-14,Referral
+1156,Customer_1156,1,South,2022-03-05,Paid Ads
+1157,Customer_1157,5,South,2022-02-03,Marketplace
+1158,Customer_1158,1,Central,2024-06-07,Paid Ads
+1159,Customer_1159,5,East,2023-07-29,Paid Ads
+1160,Customer_1160,3,South,2024-03-26,Organic
+1161,Customer_1161,6,East,2023-02-01,Referral
+1162,Customer_1162,6,West,2022-02-25,Referral
+1163,Customer_1163,2,East,2024-06-08,Paid Ads
+1164,Customer_1164,6,South,2023-12-23,Email Campaign
+1165,Customer_1165,3,North,2023-09-10,Paid Ads
+1166,Customer_1166,2,West,2022-07-01,Paid Ads
+1167,Customer_1167,6,Central,2024-01-23,Organic
+1168,Customer_1168,2,South,2023-03-15,Email Campaign
+1169,Customer_1169,2,Central,2022-06-14,Referral
+1170,Customer_1170,1,North,2023-04-23,Organic
+1171,Customer_1171,1,Central,2022-11-27,Organic
+1172,Customer_1172,5,Central,2023-10-03,Referral
+1173,Customer_1173,3,Central,2023-08-10,Referral
+1174,Customer_1174,1,South,2023-12-26,Email Campaign
+1175,Customer_1175,2,Central,2022-07-08,Organic
+1176,Customer_1176,5,East,2022-06-13,Email Campaign
+1177,Customer_1177,3,South,2022-04-05,Paid Ads
+1178,Customer_1178,6,South,2023-11-11,Referral
+1179,Customer_1179,2,Central,2022-08-12,Email Campaign
+1180,Customer_1180,3,West,2023-07-29,Organic
+1181,Customer_1181,4,North,2023-04-02,Email Campaign
+1182,Customer_1182,6,West,2022-09-07,Referral
+1183,Customer_1183,2,West,2024-03-26,Marketplace
+1184,Customer_1184,2,South,2024-01-12,Organic
+1185,Customer_1185,6,South,2024-04-21,Email Campaign
+1186,Customer_1186,5,East,2023-04-02,Organic
+1187,Customer_1187,2,North,2023-10-30,Referral
+1188,Customer_1188,3,North,2022-04-09,Email Campaign
+1189,Customer_1189,3,West,2023-10-04,Paid Ads
+1190,Customer_1190,4,North,2024-03-03,Marketplace
+1191,Customer_1191,5,Central,2022-07-30,Marketplace
+1192,Customer_1192,4,North,2022-03-15,Organic
+1193,Customer_1193,3,West,2022-12-06,Organic
+1194,Customer_1194,1,South,2022-07-02,Email Campaign
+1195,Customer_1195,1,North,2024-04-21,Referral
+1196,Customer_1196,2,East,2023-04-07,Marketplace
+1197,Customer_1197,2,West,2023-02-03,Email Campaign
+1198,Customer_1198,1,Central,2024-01-08,Organic
+1199,Customer_1199,5,West,2023-08-23,Organic
+1200,Customer_1200,2,West,2023-05-30,Referral

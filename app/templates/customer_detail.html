@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>{{ customer.customer_name }}</h1>
+        <p>Deep customer profitability, discount behavior, retention risk, and action intelligence.</p>
+    </div>
+    <div class="hero-icon">👤</div>
+</div>
+
+<div class="card-grid">
+
+    <div class="card">
+        <h3>Total Profit</h3>
+        <p>{{ customer.total_profit|currency }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Profit Margin</h3>
+        <p>{{ customer.profit_margin_pct|percent }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Avg Discount</h3>
+        <p>{{ customer.avg_discount_pct|percent }}</p>
+    </div>
+
+    <div class="card">
+        <h3>Retention</h3>
+        <p>{{ customer.retention_status }}</p>
+    </div>
+
+</div>
+
+<h2>Recommended Action</h2>
+
+<div class="decision-box">
+    <p>
+        <span class="badge {{ customer.recommended_action|status_class }}">
+            {{ customer.recommended_action }}
+        </span>
+    </p>
+
+    <p>{{ customer.recommendation_reason }}</p>
+</div>
+
+<h2>Recent Purchase Intelligence</h2>
+
+<table>
+    <tr>
+        <th>Date</th>
+        <th class="num">Discount</th>
+        <th class="num">Revenue</th>
+        <th class="num">Profit</th>
+    </tr>
+
+    {% for row in history %}
+    <tr>
+        <td>{{ row.date }}</td>
+        <td class="num">{{ row.discount_pct|percent }}</td>
+        <td class="num">{{ row.revenue|currency_full }}</td>
+        <td class="num">{{ row.profit|currency_full }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

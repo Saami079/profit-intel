@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Segment Intelligence</h1>
+        <p>Compare customer segments by profitability, loyalty, and discount sensitivity.</p>
+    </div>
+    <div class="hero-icon">🧠</div>
+</div>
+
+<table>
+    <tr>
+        <th class="text-left">Segment</th>
+        <th class="num">Customers</th>
+        <th class="num">Orders</th>
+        <th class="num">Revenue</th>
+        <th class="num">Profit</th>
+        <th class="num">Margin</th>
+        <th class="num">Avg Discount</th>
+        <th class="num">Profit / Customer</th>
+        <th class="text-left">Quality</th>
+    </tr>
+
+    {% for segment in segments %}
+    <tr>
+        <td class="text-left">{{ segment.segment_name }}</td>
+        <td class="num">{{ segment.total_customers|number }}</td>
+        <td class="num">{{ segment.total_orders|number }}</td>
+        <td class="num">{{ segment.total_revenue|currency_full }}</td>
+        <td class="num">{{ segment.total_profit|currency_full }}</td>
+        <td class="num">{{ segment.profit_margin_pct|percent }}</td>
+        <td class="num">{{ segment.avg_discount_pct|percent }}</td>
+        <td class="num">{{ segment.profit_per_customer|currency_full }}</td>
+        <td class="text-left">
+            <span class="badge {{ segment.segment_quality|status_class }}">
+                {{ segment.segment_quality }}
+            </span>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

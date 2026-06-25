@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Customer Recommendation Engine</h1>
+        <p>Translate profitability, discount dependency, and retention behavior into direct commercial actions.</p>
+        <div class="hero-actions">
+            <a href="/export/recommendations" class="export-btn">
+                Export Intelligence Report
+            </a>
+        </div>
+
+<table>
+    <tr>
+        <th class="text-left">Customer</th>
+        <th class="text-left">Segment</th>
+        <th class="num">Profit</th>
+        <th class="num">Margin</th>
+        <th class="num">Avg Discount</th>
+        <th class="text-left">Retention</th>
+        <th class="text-left">Recommended Action</th>
+        <th class="text-left">Priority</th>
+        <th class="text-left">Reason</th>
+    </tr>
+
+    {% for customer in customers %}
+    <tr>
+        <td class="text-left">{{ customer.customer_name }}</td>
+        <td class="text-left">{{ customer.segment_name }}</td>
+        <td class="num">{{ customer.total_profit|currency_full }}</td>
+        <td class="num">{{ customer.profit_margin_pct|percent }}</td>
+        <td class="num">{{ customer.avg_discount_pct|percent }}</td>
+
+        <td class="text-left">
+            <span class="badge {{ customer.retention_status|status_class }}">
+                {{ customer.retention_status }}
+            </span>
+        </td>
+
+        <td class="text-left">
+            <span class="badge {{ customer.recommended_action|status_class }}">
+                {{ customer.recommended_action }}
+            </span>
+        </td>
+
+        <td class="text-left">
+            {% if customer.recommended_action in ['Reduce Discount Gradually', 'Stop Margin Leakage'] %}
+                <span class="badge badge-negative">High</span>
+            {% elif customer.recommended_action in ['Replace Discount With Loyalty Offer', 'Do Not Increase Discount'] %}
+                <span class="badge badge-warning">Medium</span>
+            {% else %}
+                <span class="badge badge-positive">Low</span>
+            {% endif %}
+        </td>
+
+        <td class="text-left">{{ customer.recommendation_reason }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

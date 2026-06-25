@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Discount Simulator</h1>
+        <p>Estimate how pricing changes may affect revenue, profit, margin, and customer retention.</p>
+    </div>
+    <div class="hero-icon">⚙️</div>
+</div>
+
+<div class="simulator-panel">
+
+    <h2>Simulation Engine</h2>
+    <p class="muted">Model discount changes before damaging margin or retention behavior.</p>
+
+    <div class="sim-form">
+
+        <label>
+            Current Discount %
+            <input type="number" name="current_discount" value="25" min="0" max="50">
+        </label>
+
+        <label>
+            New Discount %
+            <input type="number" name="new_discount" value="15" min="0" max="50">
+        </label>
+
+        <label>
+            Current Revenue
+            <input type="number" name="revenue" value="2500000">
+        </label>
+
+        <label>
+            Cost Ratio
+            <input
+                type="number"
+                name="cost_ratio"
+                min="0"
+                max="1"
+                step="0.01"
+                placeholder="0.62"
+                required
+            >
+        </label>
+
+        <button
+            hx-get="/simulator/run"
+            hx-include=".sim-form"
+            hx-target="#simulation-output">
+            Run Simulation
+        </button>
+
+    </div>
+
+    <div id="simulation-output"></div>
+
+</div>
+
+<h2>Discount Band Intelligence</h2>
+
+<table>
+    <tr>
+        <th class="text-left">Discount Band</th>
+        <th class="num">Orders</th>
+        <th class="num">Customers</th>
+        <th class="num">Revenue</th>
+        <th class="num">Profit</th>
+        <th class="num">Margin</th>
+        <th class="text-left">Status</th>
+    </tr>
+
+    {% for band in bands %}
+    <tr>
+        <td class="text-left">{{ band.discount_band }}</td>
+        <td class="num">{{ band.total_orders|number }}</td>
+        <td class="num">{{ band.total_customers|number }}</td>
+        <td class="num">{{ band.total_revenue|currency_full }}</td>
+        <td class="num">{{ band.total_profit|currency_full }}</td>
+        <td class="num">{{ band.profit_margin_pct|percent }}</td>
+        <td class="text-left">
+            <span class="badge {{ band.band_status|status_class }}">
+                {{ band.band_status }}
+            </span>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

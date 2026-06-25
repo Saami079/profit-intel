@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Retention Breakdown</h1>
+        <p>Analyze repeat behavior, churn risk, and the profitability quality of retained customers.</p>
+    </div>
+    <div class="hero-icon">🔄</div>
+</div>
+
+<table>
+    <tr>
+        <th class="text-left">Customer</th>
+        <th class="text-left">Segment</th>
+        <th class="num">Orders</th>
+        <th class="num">Lifetime Revenue</th>
+        <th class="num">Lifetime Profit</th>
+        <th class="num">Avg Discount</th>
+        <th class="num">Days Since Last Purchase</th>
+        <th class="text-left">Retention Status</th>
+        <th class="text-left">Behavior</th>
+    </tr>
+
+    {% for customer in customers %}
+    <tr>
+        <td class="text-left">{{ customer.customer_name }}</td>
+        <td class="text-left">{{ customer.segment_name }}</td>
+        <td class="num">{{ customer.total_orders|number }}</td>
+        <td class="num">{{ customer.lifetime_revenue|currency_full }}</td>
+        <td class="num">{{ customer.lifetime_profit|currency_full }}</td>
+        <td class="num">{{ customer.avg_discount_pct|percent }}</td>
+        <td class="num">{{ customer.days_since_last_purchase|number }}</td>
+        <td class="text-left">
+            <span class="badge {{ customer.retention_status|status_class }}">
+                {{ customer.retention_status }}
+            </span>
+        </td>
+        <td class="text-left">
+            <span class="badge {{ customer.retention_behavior|status_class }}">
+                {{ customer.retention_behavior }}
+            </span>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

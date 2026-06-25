@@ -1,0 +1,73 @@
+<div class="sim-result-grid">
+
+    <div class="sim-card">
+        <span>Projected Revenue</span>
+        <strong>{{ result.projected_revenue|currency_full }}</strong>
+    </div>
+
+    <div class="sim-card">
+        <span>Projected Profit</span>
+        <strong>{{ result.projected_profit|currency_full }}</strong>
+    </div>
+
+    <div class="sim-card">
+        <span>Projected Margin</span>
+        <strong>{{ result.projected_margin|percent }}</strong>
+    </div>
+
+    <div class="sim-card">
+        <span>Profit Change</span>
+        <strong>{{ result.profit_change_pct|percent }}</strong>
+    </div>
+
+</div>
+
+<div class="decision-box">
+    <h3>Executive Recommendation</h3>
+
+    <p>
+        <span class="badge {{ result.retention_risk|status_class }}">
+            Retention Risk: {{ result.retention_risk }}
+        </span>
+    </p>
+
+    <p>{{ result.recommendation }}</p>
+</div>
+
+<div class="impact-strip">
+    <div>
+        <span>Current Profit</span>
+        <strong>{{ result.current_profit|currency_full }}</strong>
+    </div>
+
+    <div>
+        <span>Projected Profit</span>
+        <strong>{{ result.projected_profit|currency_full }}</strong>
+    </div>
+
+    <div>
+        <span>Current Margin</span>
+        <strong>{{ result.current_margin|percent }}</strong>
+    </div>
+
+    <div>
+        <span>Projected Margin</span>
+        <strong>{{ result.projected_margin|percent }}</strong>
+    </div>
+</div>
+
+<div class="decision-box">
+    <h3>Executive Recommendation</h3>
+
+    <p>
+        <span class="badge {{ result.retention_risk|status_class }}">
+            Retention Risk: {{ result.retention_risk }}
+        </span>
+
+        <span class="badge badge-positive">
+            Profit Change: {{ result.profit_change_pct|percent }}
+        </span>
+    </p>
+
+    <p>{{ result.recommendation }}</p>
+</div>

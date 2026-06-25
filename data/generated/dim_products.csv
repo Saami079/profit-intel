@@ -1,0 +1,151 @@
+product_id,product_name,category,unit_cost,list_price
+1,Fitness_Product_001,Fitness,759.35,1280.53
+2,Accessories_Product_002,Accessories,507.18,1280.27
+3,Electronics_Product_003,Electronics,610.87,1268.7
+4,Fashion_Product_004,Fashion,916.36,2277.15
+5,Fitness_Product_005,Fitness,1155.35,1702.2
+6,Office Supplies_Product_006,Office Supplies,1152.28,1460.26
+7,Fashion_Product_007,Fashion,218.02,274.22
+8,Grocery_Product_008,Grocery,681.61,1852.49
+9,Fitness_Product_009,Fitness,315.26,756.38
+10,Office Supplies_Product_010,Office Supplies,317.15,841.63
+11,Fashion_Product_011,Fashion,260.27,414.41
+12,Fitness_Product_012,Fitness,297.65,455.73
+13,Electronics_Product_013,Electronics,1033.55,2785.6
+14,Accessories_Product_014,Accessories,802.04,1093.48
+15,Home & Kitchen_Product_015,Home & Kitchen,360.77,561.36
+16,Accessories_Product_016,Accessories,1145.72,2066.38
+17,Beauty_Product_017,Beauty,192.05,424.48
+18,Beauty_Product_018,Beauty,435.92,849.39
+19,Fitness_Product_019,Fitness,856.67,1273.19
+20,Office Supplies_Product_020,Office Supplies,984.62,2693.84
+21,Fashion_Product_021,Fashion,85.41,139.35
+22,Beauty_Product_022,Beauty,877.66,1968.85
+23,Fitness_Product_023,Fitness,1020.92,1488.68
+24,Office Supplies_Product_024,Office Supplies,1063.23,2091.81
+25,Office Supplies_Product_025,Office Supplies,947.74,1900.03
+26,Home & Kitchen_Product_026,Home & Kitchen,276.86,606.4
+27,Fitness_Product_027,Fitness,1041.76,1528.26
+28,Beauty_Product_028,Beauty,374.82,983.46
+29,Home & Kitchen_Product_029,Home & Kitchen,894.72,2355.59
+30,Electronics_Product_030,Electronics,990.16,2126.17
+31,Beauty_Product_031,Beauty,1095.06,2305.07
+32,Accessories_Product_032,Accessories,812.38,1202.63
+33,Grocery_Product_033,Grocery,330.1,807.7
+34,Fitness_Product_034,Fitness,229.95,466.05
+35,Home & Kitchen_Product_035,Home & Kitchen,524.4,1063.67
+36,Beauty_Product_036,Beauty,1029.74,2574.49
+37,Fashion_Product_037,Fashion,928.07,1362.01
+38,Fashion_Product_038,Fashion,280.64,763.48
+39,Fashion_Product_039,Fashion,904.23,1807.94
+40,Office Supplies_Product_040,Office Supplies,125.27,304.44
+41,Beauty_Product_041,Beauty,150.4,274.12
+42,Electronics_Product_042,Electronics,828.82,1701.34
+43,Office Supplies_Product_043,Office Supplies,514.66,1375.56
+44,Electronics_Product_044,Electronics,124.69,281.2
+45,Home & Kitchen_Product_045,Home & Kitchen,868.18,1786.83
+46,Fitness_Product_046,Fitness,1015.06,1683.11
+47,Fashion_Product_047,Fashion,501.86,921.77
+48,Home & Kitchen_Product_048,Home & Kitchen,658.66,1207.53
+49,Beauty_Product_049,Beauty,658.34,1183.03
+50,Office Supplies_Product_050,Office Supplies,625.28,1248.85
+51,Electronics_Product_051,Electronics,642.06,940.88
+52,Fashion_Product_052,Fashion,337.59,691.23
+53,Fitness_Product_053,Fitness,316.9,487.93
+54,Office Supplies_Product_054,Office Supplies,754.26,1897.93
+55,Beauty_Product_055,Beauty,544.37,959.1
+56,Home & Kitchen_Product_056,Home & Kitchen,619.3,1233.75
+57,Beauty_Product_057,Beauty,741.69,1671.21
+58,Grocery_Product_058,Grocery,105.14,138.46
+59,Fashion_Product_059,Fashion,230.89,472.08
+60,Fashion_Product_060,Fashion,142.62,235.37
+61,Fashion_Product_061,Fashion,658.64,1237.23
+62,Electronics_Product_062,Electronics,1063.93,2530.41
+63,Fitness_Product_063,Fitness,1140.92,1809.18
+64,Accessories_Product_064,Accessories,1051.38,1592.19
+65,Grocery_Product_065,Grocery,752.94,1868.54
+66,Fashion_Product_066,Fashion,778.0,1588.48
+67,Fashion_Product_067,Fashion,891.09,1587.16
+68,Accessories_Product_068,Accessories,748.12,1014.98
+69,Grocery_Product_069,Grocery,511.72,725.76
+70,Beauty_Product_070,Beauty,665.44,1769.72
+71,Grocery_Product_071,Grocery,1005.7,2201.02
+72,Fashion_Product_072,Fashion,612.97,1350.29
+73,Electronics_Product_073,Electronics,1063.08,2204.53
+74,Home & Kitchen_Product_074,Home & Kitchen,184.37,418.9
+75,Electronics_Product_075,Electronics,1084.61,2658.43
+76,Grocery_Product_076,Grocery,664.69,1212.45
+77,Electronics_Product_077,Electronics,861.36,1649.4
+78,Accessories_Product_078,Accessories,964.3,1775.2
+79,Home & Kitchen_Product_079,Home & Kitchen,556.55,915.25
+80,Beauty_Product_080,Beauty,1099.3,1516.94
+81,Grocery_Product_081,Grocery,368.74,464.05
+82,Electronics_Product_082,Electronics,727.35,1042.03
+83,Electronics_Product_083,Electronics,500.03,784.25
+84,Office Supplies_Product_084,Office Supplies,537.91,761.25
+85,Grocery_Product_085,Grocery,809.77,1330.56
+86,Grocery_Product_086,Grocery,712.43,1566.22
+87,Grocery_Product_087,Grocery,925.57,1749.79
+88,Accessories_Product_088,Accessories,280.17,593.01
+89,Accessories_Product_089,Accessories,364.23,628.41
+90,Office Supplies_Product_090,Office Supplies,947.1,1768.33
+91,Fashion_Product_091,Fashion,1037.6,2357.31
+92,Beauty_Product_092,Beauty,580.19,1354.12
+93,Fashion_Product_093,Fashion,192.31,391.91
+94,Office Supplies_Product_094,Office Supplies,976.96,2151.01
+95,Electronics_Product_095,Electronics,260.03,713.8
+96,Electronics_Product_096,Electronics,980.89,2477.77
+97,Accessories_Product_097,Accessories,1116.97,2149.98
+98,Home & Kitchen_Product_098,Home & Kitchen,374.66,683.68
+99,Electronics_Product_099,Electronics,891.43,2400.23
+100,Grocery_Product_100,Grocery,767.64,1579.46
+101,Electronics_Product_101,Electronics,1139.2,2872.33
+102,Accessories_Product_102,Accessories,571.65,893.29
+103,Fitness_Product_103,Fitness,298.12,734.91
+104,Beauty_Product_104,Beauty,769.01,1764.68
+105,Office Supplies_Product_105,Office Supplies,347.97,435.12
+106,Fashion_Product_106,Fashion,177.26,297.39
+107,Grocery_Product_107,Grocery,475.5,885.61
+108,Beauty_Product_108,Beauty,659.87,1578.56
+109,Home & Kitchen_Product_109,Home & Kitchen,1109.48,2331.98
+110,Office Supplies_Product_110,Office Supplies,469.17,1179.52
+111,Beauty_Product_111,Beauty,759.13,1177.8
+112,Grocery_Product_112,Grocery,723.9,1197.85
+113,Grocery_Product_113,Grocery,646.99,1368.95
+114,Fitness_Product_114,Fitness,460.76,659.52
+115,Fitness_Product_115,Fitness,1061.25,2664.14
+116,Fitness_Product_116,Fitness,857.49,2355.86
+117,Accessories_Product_117,Accessories,942.36,2284.36
+118,Accessories_Product_118,Accessories,843.39,2226.22
+119,Electronics_Product_119,Electronics,619.81,1022.45
+120,Grocery_Product_120,Grocery,789.7,2204.06
+121,Beauty_Product_121,Beauty,976.18,1844.26
+122,Office Supplies_Product_122,Office Supplies,658.48,833.02
+123,Fitness_Product_123,Fitness,358.05,499.18
+124,Office Supplies_Product_124,Office Supplies,165.15,444.86
+125,Accessories_Product_125,Accessories,431.54,685.62
+126,Fitness_Product_126,Fitness,284.72,685.19
+127,Beauty_Product_127,Beauty,638.88,996.32
+128,Beauty_Product_128,Beauty,1057.47,1660.76
+129,Beauty_Product_129,Beauty,1015.13,2584.84
+130,Office Supplies_Product_130,Office Supplies,254.72,360.52
+131,Home & Kitchen_Product_131,Home & Kitchen,836.91,1906.74
+132,Electronics_Product_132,Electronics,935.95,1955.47
+133,Electronics_Product_133,Electronics,1029.77,1879.7
+134,Office Supplies_Product_134,Office Supplies,631.42,1753.65
+135,Fitness_Product_135,Fitness,629.7,1747.93
+136,Fitness_Product_136,Fitness,525.63,1268.22
+137,Fashion_Product_137,Fashion,140.65,350.06
+138,Accessories_Product_138,Accessories,1132.41,1472.67
+139,Office Supplies_Product_139,Office Supplies,520.96,1205.41
+140,Fashion_Product_140,Fashion,592.06,850.54
+141,Accessories_Product_141,Accessories,433.53,547.57
+142,Beauty_Product_142,Beauty,504.96,710.05
+143,Office Supplies_Product_143,Office Supplies,766.31,1266.36
+144,Fitness_Product_144,Fitness,345.6,684.49
+145,Office Supplies_Product_145,Office Supplies,489.84,990.99
+146,Beauty_Product_146,Beauty,549.38,1327.25
+147,Office Supplies_Product_147,Office Supplies,1036.85,1745.46
+148,Fashion_Product_148,Fashion,719.98,1992.81
+149,Beauty_Product_149,Beauty,991.89,2348.07
+150,Beauty_Product_150,Beauty,701.98,1809.2

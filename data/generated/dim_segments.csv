@@ -1,0 +1,7 @@
+segment_id,segment_name,segment_description
+1,Premium Loyalists,"High profit, low discount dependency"
+2,Discount Hunters,Buy heavily during discounts
+3,Seasonal Buyers,Purchase during campaigns and holidays
+4,Margin Drainers,High revenue but weak profit
+5,At Risk Customers,Declining repeat purchase behavior
+6,New Customers,Recently acquired customers

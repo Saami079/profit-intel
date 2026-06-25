@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="page-hero">
+    <div>
+        <h1>Margin Leakage Detector</h1>
+        <p>Detect products generating revenue while quietly damaging margin performance.</p>
+    </div>
+    <div class="hero-icon">💸</div>
+</div>
+
+<table>
+    <tr>
+        <th class="text-left">Product</th>
+        <th class="text-left">Category</th>
+        <th class="num">Orders</th>
+        <th class="num">Units Sold</th>
+        <th class="num">Revenue</th>
+        <th class="num">Profit</th>
+        <th class="num">Margin</th>
+        <th class="num">Avg Discount</th>
+        <th class="text-left">Status</th>
+    </tr>
+
+    {% for product in products %}
+    <tr>
+        <td class="text-left">{{ product.product_name }}</td>
+        <td class="text-left">{{ product.category }}</td>
+        <td class="num">{{ product.total_orders|number }}</td>
+        <td class="num">{{ product.total_units_sold|number }}</td>
+        <td class="num">{{ product.total_revenue|currency_full }}</td>
+        <td class="num">{{ product.total_profit|currency_full }}</td>
+        <td class="num">{{ product.profit_margin_pct|percent }}</td>
+        <td class="num">{{ product.avg_discount_pct|percent }}</td>
+        <td class="text-left">
+            <span class="badge {{ product.leakage_status|status_class }}">
+                {{ product.leakage_status }}
+            </span>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
