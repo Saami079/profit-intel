@@ -257,7 +257,7 @@ psql -U postgres -d customer_profitability_discount_db -f database/schema/schema
 Clone:
 
 ```bash
-git clone https://github.com/yourusername/profit-intel.git
+git clone https://github.com/Saami079/profit-intel.git
 cd profit-intel
 ```
 
