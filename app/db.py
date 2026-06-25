@@ -1,16 +1,23 @@
+import os
 import psycopg2
-from config import Config
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def get_db_connection():
-    connection = psycopg2.connect(
-        host=Config.DB_HOST,
-        database=Config.DB_NAME,
-        user=Config.DB_USER,
-        password=Config.DB_PASSWORD,
-        port=Config.DB_PORT
+    database_url = os.getenv("DATABASE_URL")
+
+    if database_url:
+        return psycopg2.connect(database_url)
+
+    return psycopg2.connect(
+        host=os.getenv("DB_HOST", "localhost"),
+        database=os.getenv("DB_NAME", "customer_profitability_discount_db"),
+        user=os.getenv("DB_USER", "postgres"),
+        password=os.getenv("DB_PASSWORD"),
+        port=os.getenv("DB_PORT", "5432")
     )
-    return connection
 
 
 def fetch_all(query, params=None):

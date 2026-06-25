@@ -240,7 +240,7 @@ Update `.env`:
 DB_HOST=localhost
 DB_NAME=customer_profitability_discount_db
 DB_USER=postgres
-DB_PASSWORD=722004
+DB_PASSWORD=your_password_here
 DB_PORT=5432
 ```
 
